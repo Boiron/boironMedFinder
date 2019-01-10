@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives','app.services',])
+var example = angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives','app.services', 'ngCordova'])
 
 .config(function($ionicConfigProvider, $sceDelegateProvider){
 
@@ -81,3 +81,12 @@ angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives
     }
   };
 });
+
+example.controller("ExampleController", function($scope, $cordovaSocialSharing) {
+// Message, title, image, and url
+    $scope.shareAnywhere = function() {
+      $cordovaSocialSharing.share("This is a message to share", "This is a title for the share", null, "https://www.boironusa.com");
+    }
+});
+
+

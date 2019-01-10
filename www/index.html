@@ -9,6 +9,14 @@
     
     <script src="lib/ionic/js/ionic.bundle.js"></script>
 
+
+    <!--Added for social share-->
+    <script src="js/ng-cordova.min.js"></script>
+
+    <!--Added for social share html canvas-->
+    <script src="js/html2canvas.js"></script>
+    <script src="js/screenshot.js"></script>
+
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
 
@@ -66,7 +74,16 @@
       <ion-nav-back-button></ion-nav-back-button>
     </ion-nav-bar>
     <ion-nav-view></ion-nav-view>
+    <ion-content ng-controller="ExampleController">
+      <button class="button" ng-click="shareAnywhere()">Share Anywhere</button>
+    </ion-content>
   </div>
 </div>
+
+
+
+
+
+
   </body>
 </html>
