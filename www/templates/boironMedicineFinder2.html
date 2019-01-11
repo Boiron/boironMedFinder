@@ -1,7 +1,13 @@
 <ion-view title="Boiron Medicine Finder" id="page505">
   <ion-content padding="true" class="has-header">
     <ion-list id="boironMedicineFinder2-list125">
-      <ion-item class="item-icon-right" id="boironMedicineFinder2-list-item1368" href-inappbrowser="https://shop.boironusa.com">Shop
+        <script>
+            function openExternal(elem) {
+                window.open(elem.href, "_system");
+                return false; // Prevent execution of the default onClick handler 
+            }
+        </script>
+      <ion-item class="item-icon-right" id="boironMedicineFinder2-list-item1368" href-inappbrowser="https://shop.boironusa.com" onClick="openExternal(this)">Shop
         <i class="icon ion-ios-cart-outline"></i>
       </ion-item>
       <ion-item class="item-icon-right" id="boironMedicineFinder2-list-item1369" ui-sref="tabsController.onlineRetailers()">Online Retailers
