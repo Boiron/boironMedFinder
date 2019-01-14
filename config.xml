@@ -11,6 +11,8 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <allow-intent href="*" />
+    <allow-navigation href="http://*/*" />
     <allow-navigation href="https://shop.boironusa.com/*" />
     <allow-navigation href="//www.bullseyelocations.com/*" />
     <preference name="ScrollEnabled" value="false" />
@@ -45,6 +47,8 @@
         <allow-navigation href="http://*/*" />
         <allow-navigation href="https://*/*" />
         <allow-navigation href="data:*" />
+        <allow-intent href="*" />
+        <allow-navigation href="http://*/*" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
@@ -103,6 +107,6 @@
         <variable name="ANDROID_SUPPORT_VERSION" value="27.+" />
     </plugin>
     <engine name="ios" spec="^4.5.5" />
-    <engine name="android" spec="7.1.4" />
     <engine name="browser" spec="5.0.4" />
+    <engine name="android" spec="7.1.4" />
 </widget>

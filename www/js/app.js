@@ -7,11 +7,11 @@
 // 'starter.controllers' is found in controllers.js
 var example = angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives','app.services', 'ngCordova'])
 
-.config(function($ionicConfigProvider, $sceDelegateProvider){
-
+.config(function($stateProvider, $ionicConfigProvider, $sceDelegateProvider){
+  $ionicConfigProvider.tabs.position('bottom'); 
  
   $sceDelegateProvider.resourceUrlWhitelist([ 'self','*://www.youtube.com/**', '*://player.vimeo.com/video/**']);
-
+  
 })
 
 .run(function($ionicPlatform) {
