@@ -9,6 +9,7 @@ var example = angular.module('app', ['ionic', 'app.controllers', 'app.routes', '
 
 .config(function($ionicConfigProvider, $sceDelegateProvider){
 
+ 
   $sceDelegateProvider.resourceUrlWhitelist([ 'self','*://www.youtube.com/**', '*://player.vimeo.com/video/**']);
 
 })
