@@ -4946,6 +4946,26 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
+  .state('tabsController.connectWithUs', {
+    url: '/page530',
+    views: {
+      'tab9': {
+        templateUrl: 'templates/connectWithUs.html',
+        controller: 'connectWithUsCtrl'
+      }
+    }    
+  })
+
+  .state('tabsController.socialMediaLink', {
+    url: '/page531',
+    views: {
+      'tab9': {
+        templateUrl: 'templates/socialMediaLink.html',
+        controller: 'socialMediaLink'
+      }
+    }    
+  })
+
   .state('page2', {
     url: '/page507',
     templateUrl: 'templates/page2.html',
