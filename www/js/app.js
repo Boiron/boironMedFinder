@@ -86,7 +86,7 @@ var example = angular.module('app', ['ionic', 'app.controllers', 'app.routes', '
 example.controller("ExampleController", function($scope, $cordovaSocialSharing) {
 // Message, title, image, and url
     $scope.shareAnywhere = function() {
-      $cordovaSocialSharing.share("This is a message to share", "This is a title for the share", null, "https://www.boironusa.com");
+      $cordovaSocialSharing.share("", "", null, "https://www.boironusa.com");
     }
 });
 
