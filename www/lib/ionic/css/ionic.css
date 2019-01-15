@@ -6342,7 +6342,8 @@ button.item.item-button-right {
 
 .item-thumbnail-left,
 .item-thumbnail-left .item-content {
-  padding-top: 8px;
+  /*padding-top: 8px;*//*more formatting of text*/
+  padding-top: auto;
   padding-left: 106px;
   min-height: 100px; }
   .item-thumbnail-left > img:first-child,
