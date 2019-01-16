@@ -10,3 +10,4 @@ angular.module('app.services', [])
         'img': "img/E2QvdwZxQlC1McdTowPd_bluetubes.png"
     }
 }]);
+
