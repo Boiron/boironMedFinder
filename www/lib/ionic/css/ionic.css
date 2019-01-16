@@ -9835,3 +9835,39 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 span {
   font-family: 'Montserrat';
 }
+/*.bar.bar-calm {
+  border-color: #b2b2b2;
+    background-color: #f8f8f8;
+    background-image: linear-gradient(0deg, #f8f8f8, #f8f8f8 50%, transparent 50%);
+    color: #fff; }
+*/
+.bar.bar-calm .title {
+  color: white;
+  font-weight: bold;
+}
+
+.bar{
+  height: 55px;
+}
+
+.bar.bar-calm {
+  border-color: #0a9dc7;
+  background-color: #65d0ee;
+  background-image: linear-gradient(0deg, #0a9dc7, #0a9dc7 50%, transparent 50%);
+  color: #fff; }
+
+.item-complex.item-icon-right .item-content {
+  padding-right: 54px;
+  background-color: white;
+  border-color: #b2b2b2;
+  }
+
+  
+
+.background {
+  background-color:#f8f8f8;
+}
+
+.logo {
+  padding: 4px 0 0 0;
+}
