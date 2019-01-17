@@ -65,7 +65,24 @@
 
     
     <script src="lib/ionicuirouter/ionicUIRouter.js"></script>
-    
+    <script>
+      function sharePhoto() {
+       var imageLink;
+              console.log('Calling from CapturePhoto');
+              navigator.screenshot.save(function(error,res){
+              if(error){
+              console.error(error);
+              }else{
+              console.log('ok',res.filePath); //should be path/to/myScreenshot.jpg
+              //For android
+              imageLink = res.filePath;
+             window.plugins.socialsharing.share(null, null,'file://'+imageLink, null);
+             //For iOS
+             //window.plugins.socialsharing.share(null,   null,imageLink, null)
+       }
+       },'jpg',50,'myScreenShot');
+      }
+  </script>
 
   </head>
   <body ng-app="app" animation="slide-left-right-ios7">
@@ -75,16 +92,10 @@
       <ion-nav-back-button></ion-nav-back-button>
     </ion-nav-bar>
     <ion-nav-view></ion-nav-view>
-    <ion-content ng-controller="ExampleController">
+    <!--<ion-content ng-controller="ExampleController">
       <button class="button" ng-click="shareAnywhere()">Share Anywhere</button>
-    </ion-content>
+    </ion-content>-->
   </div>
 </div>
-
-
-
-
-
-
   </body>
 </html>
