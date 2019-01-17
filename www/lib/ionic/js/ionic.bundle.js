@@ -61836,7 +61836,7 @@ function($scope, $element, $attrs, $compile, $rootScope) {
 
   self.beforeEnter = function(ev, transData) {
     // this event was emitted, starting at intial ion-view, then bubbles up
-    // only the first ion-view should do something with it, parent ion-views should ignore
+    // only the first ion-view class="background" should do something with it, parent ion-views should ignore
     if (transData && !transData.viewNotified) {
       transData.viewNotified = true;
 
@@ -65258,8 +65258,8 @@ IonicModule
  *
  * ```html
  * <script id="home" type="text/ng-template">
- *   <!-- The title of the ion-view will be shown on the navbar -->
- *   <ion-view view-title="Home">
+ *   <!-- The title of the ion-view class="background" will be shown on the navbar -->
+ *   <ion-view class="background" view-title="Home">
  *     <ion-content ng-controller="HomeCtrl">
  *       <!-- The content of the page -->
  *       <a href="#/music">Go to music page!</a>
@@ -65320,7 +65320,7 @@ IonicModule
  * #### Disable cache with an attribute
  *
  * ```html
- * <ion-view cache-view="false" view-title="My Title!">
+ * <ion-view class="background" cache-view="false" view-title="My Title!">
  *   ...
  * </ion-view>
  * ```
@@ -67432,7 +67432,7 @@ function($timeout, $ionicConfig) {
  * ```html
  * <ion-nav-bar></ion-nav-bar>
  * <ion-nav-view>
- *   <ion-view view-title="My Page">
+ *   <ion-view class="background" view-title="My Page">
  *     <ion-content>
  *       Hello!
  *     </ion-content>
