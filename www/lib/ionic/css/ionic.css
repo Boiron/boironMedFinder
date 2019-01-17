@@ -9844,7 +9844,7 @@ span {
     color: #fff; }
 */
 .bar.bar-calm .title {
-  color: white;
+  
   font-weight: bold;
 }
 
@@ -9852,12 +9852,12 @@ span {
   height: 55px;
 }
 
-.bar.bar-calm {
-  border-color: #0a9dc7;
-  background-color: #65d0ee;
-  background-image: linear-gradient(0deg, #0a9dc7, #0a9dc7 50%, transparent 50%);
+/*.bar.bar-calm {
+  border-color: #b2b2b2;
+  background-color: white;
+  background-image: linear-gradient(0deg, white, white 50%, transparent 50%);
   color: #fff; }
-
+*/
 .item-complex.item-icon-right .item-content {
   padding-right: 54px;
   background-color: white;
