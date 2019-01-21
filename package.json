@@ -11,6 +11,7 @@
     "gulp-sass": "^3.1.0"
   },
   "dependencies": {
+    "@ionic-native/core": "^4.20.0",
     "@ionic-native/social-sharing": "^4.20.0",
     "@ionic/pro": "2.0.4",
     "com.darktalker.cordova.screenshot": "git+https://github.com/Boiron/cordova-screenshot.git",
