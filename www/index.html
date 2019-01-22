@@ -63,7 +63,8 @@
     <script src="js/directives.js"></script>
     <script src="js/services.js"></script>
 
-    
+    <script type="text/javascript" src="js/SocialSharing.js"></script>
+
     <script src="lib/ionicuirouter/ionicUIRouter.js"></script>
     <script>
       function sharePhoto() {
@@ -76,9 +77,9 @@
               console.log('ok',res.filePath); //should be path/to/myScreenshot.jpg
               //For android
               imageLink = res.filePath;
-             window.plugins.socialsharing.share(null, null,'file://'+imageLink, null);
+              window.plugins.socialsharing.share(null, null,'file://'+imageLink, null);
              //For iOS
-             window.plugins.socialsharing.share(null,   null,imageLink, null)
+             //window.plugins.socialsharing.share(null,   null,imageLink, null)
        }
        },'jpg',50,'myScreenShot');
       }
