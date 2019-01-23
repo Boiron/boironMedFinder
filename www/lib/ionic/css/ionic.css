@@ -9889,3 +9889,9 @@ span {
   /*padding: 2px 0 22px 0;*/
 }
 
+.instasize {
+  max-width: 60px !important;
+  max-height: 60px !important;
+  padding-top: 10px;
+  padding-left: 10px;
+}
