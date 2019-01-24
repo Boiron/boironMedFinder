@@ -6000,7 +6000,8 @@ button.item.item-complex {
 .item-radio .item-content {
   position: relative;
   z-index: 2;
-  padding: 16px 49px 16px 16px;
+  /*padding: 16px 49px 16px 16px;*/
+  padding: 10px;
   border: none;
   background-color: #fff; }
 
@@ -9848,10 +9849,15 @@ span {
 .bar.bar-calm .title {
   
   font-weight: bold;
+
 }
 
 .bar{
   height: 75px;
+}
+
+.bar .title{
+  padding: 15px 0 0 0 !important;
 }
 
 /*.bar.bar-calm {
@@ -9873,7 +9879,7 @@ span {
 }
 
 .logo {
-  padding: 15px 0 0 0;
+  padding: 0px 0 0 0;
 }
 
 .bar-calm .button {
@@ -9890,8 +9896,23 @@ span {
 }
 
 .instasize {
-  max-width: 60px !important;
-  max-height: 60px !important;
+  max-width: 80px !important;
+  max-height: 80px !important;
   padding-top: 10px;
-  padding-left: 10px;
+  padding-left: 0px;
+}
+
+ion-item.nopadding {
+padding: 0px 0 0 0 !important;
+}
+
+#mainContainer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
 }

@@ -3,49 +3,89 @@
         <button onclick="sharePhoto();" class="button icon ion-share"></button>
       </ion-nav-buttons>
   <ion-nav-title>
-    <img class="logo" src="/img/boironlogo.png">
+    <img class="logo" src="/img/boironwhite.png">
   </ion-nav-title>
   <ion-content padding="true" class="has-header">
     <div class="spacer" style="height: 20px;"></div>
     <div class="spacer" style="height: 20px;"></div>
     <div class="spacer" style="height: 20px;"></div>
     <div class="spacer" style="height: 20px;"></div>
-    <ion-list id="boironMedicineFinder-list112">
-      <ion-item class="item-thumbnail-left item-h2-center item-icon-right" id="boironMedicineFinder-list-item1329" ui-sref="tabsController.boironSingleMedicinesBlueTubes()">
-        <img src="img/Q3QlowLOSrWLCQRYV2il_ScreenShot2018-11-28at10.44.16AM.png">
-        <h2>Single Medicines </h2>
-        <!--<p style="white-space:normal;">What are Boiron single medicines (blue tubes) and how do you use them?</p>-->
-        <i class="icon ion-ios-arrow-right"></i>
-      </ion-item>
-    </ion-list>
-    <div class="spacer" style="height: 20px;"></div>
-    <ion-list id="boironMedicineFinder-list113">
-      <ion-item class="item-thumbnail-left item-icon-right" id="boironMedicineFinder-list-item1330" ui-sref="tabsController.newProducts()">
-        <img src="img/6Seivu3UTEql6kqyb3NF_Arnicare-RollOn.jpg">
-        <h2>New Products</h2>
-        <!--<p style="white-space:normal;">Check out our newest homeopathic products!</p>-->
-        <i class="icon ion-ios-arrow-right"></i>
-      </ion-item>
-    </ion-list>
-    <div class="spacer" style="height: 20px;"></div>
-    <ion-list id="boironMedicineFinder-list114">
-      <ion-item class="item-thumbnail-left item-icon-right" id="boironMedicineFinder-list-item1331" ui-sref="tabsController.homepathicMedicines()">
-        <img src="img/flower.jpeg">
-        <h2>Easy Guide To Homepathic Medicines</h2>
-       <!--<p style="white-space:normal;">Learn about homeopathic medicines</p>-->
-        <i class="icon ion-ios-arrow-right"></i>
-      </ion-item>
-    </ion-list>
-    <div class="spacer" style="height: 20px;"></div>
-    <ion-list id="boironMedicineFinder-list114">
-      <ion-item class="item-thumbnail-left item-icon-right" id="boironMedicineFinder-list-item1331" href-inappbrowser="https://www.instagram.com/boironusa/">
-        <img class="instasize" src="img/app-icon2.png">
-        <h2>Boiron USA Instagram</h2>
-       <!--<p style="white-space:normal;">Learn about homeopathic medicines</p>-->
-        <i class="icon ion-ios-arrow-right"></i>
-      </ion-item>
-    </ion-list>
-
+    <div class="row responsive">
+      <div class="col col-50">
+        <ion-list id="boironMedicineFinder-list112">
+          <ion-item class="nopadding" id="boironMedicineFinder-list-item1329" href="#/page1/findmeds">
+            <center>
+              <img class="instasize" src="img/magnify.jpg"><br>
+              <h2> Find Medicines</h2>
+            </center>
+              <!--<p style="white-space:normal;">What are Boiron single medicines (blue tubes) and how do you use them?</p>-->
+              <!--<i class="icon ion-ios-arrow-right"></i>-->
+          </ion-item>
+        </ion-list>
+      </div>
+      <div class="col col-50">
+        <ion-list id="boironMedicineFinder-list112">
+          <ion-item class="nopadding" id="boironMedicineFinder-list-item1329" ui-sref="tabsController.boironSingleMedicinesBlueTubes()">
+            <center>
+              <img class="instasize" src="img/Q3QlowLOSrWLCQRYV2il_ScreenShot2018-11-28at10.44.16AM.png">
+              <h2>Single Medicines</h2>
+            </center>
+              <!--<p style="white-space:normal;">What are Boiron single medicines (blue tubes) and how do you use them?</p>-->
+              <!--<i class="icon ion-ios-arrow-right"></i>-->
+          </ion-item>
+          </ion-list>
+        </div>
+      </div>
+      <div class="row gallery">
+        <!--<div class="col col-50">
+        <ion-list id="boironMedicineFinder-list113">
+          <ion-item id="boironMedicineFinder-list-item1330" ui-sref="tabsController.newProducts()">
+            <center>
+            <img class="instasize item-thumbnail-left" src="img/6Seivu3UTEql6kqyb3NF_Arnicare-RollOn.jpg">
+            <h2>New Products</h2>
+            </center>
+          <p style="white-space:normal;">Check out our newest homeopathic products!</p>
+            <i class="icon ion-ios-arrow-right"></i>
+          </ion-item>
+        </ion-list>
+      </div>-->
+        <div class="col col-50">
+          <ion-list id="boironMedicineFinder-list114">
+            <ion-item class="nopadding" id="boironMedicineFinder-list-item1331" ui-sref="tabsController.newProducts()">
+              <center>
+                <img class="instasize" src="img/6Seivu3UTEql6kqyb3NF_Arnicare-RollOn.jpg">
+                <h2>New Products</h2>
+              </center>
+                <!--<p style="white-space:normal;">Check out our newest homeopathic products!</p>-->
+                <!--<i class="icon ion-ios-arrow-right"></i>-->
+            </ion-item>
+            </ion-list>
+          </div>
+          <div class="col col-50"> 
+            <ion-list id="boironMedicineFinder-list114">
+              <ion-item class="nopadding" id="boironMedicineFinder-list-item1331" ui-sref="tabsController.homepathicMedicines()">
+                <center>
+                  <img class="instasize" src="img/flower.jpeg">
+                  <h2>Easy Guide</h2>
+                </center>
+                  <!--<p style="white-space:normal;">Learn about homeopathic medicines</p>-->
+                  <!--<i class="icon ion-ios-arrow-right"></i>-->
+              </ion-item>
+            </ion-list>
+          </div>
+        </div>
+        <div class="row gallery">
+          <div class="col">
+            <ion-list id="boironMedicineFinder-list114">
+              <ion-item class="item-thumbnail-left" id="boironMedicineFinder-list-item1331" href-inappbrowser="https://www.instagram.com/boironusa/">
+                <img class="instasize" src="img/app-icon2.png">
+                <h2>Boiron USA Instagram</h2>
+                    <!--<p style="white-space:normal;">Learn about homeopathic medicines</p>-->
+                    <!--<i class="icon ion-ios-arrow-right"></i>-->
+                </ion-item>
+              </ion-list>
+            </div>
+          </div>
     
     <!-- button for screenshare
     <ion-pane>
@@ -54,5 +94,8 @@
       </ion-content>
     </ion-pane>
     -->
+
+
+
   </ion-content>
 </ion-view>
