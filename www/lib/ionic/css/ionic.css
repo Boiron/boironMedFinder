@@ -5706,7 +5706,7 @@ ion-tabs.tabs-striped.tabs-color-active-dark .tab-item.tab-item-active, ion-tabs
   z-index: 2;
   display: block;
   margin: -1px;
-  padding: 16px;
+  padding: 10px;
   border-width: 1px;
   border-style: solid;
   font-size: 16px; }
@@ -6356,8 +6356,8 @@ button.item.item-button-right {
     position: absolute;
     top: 10px;
     left: 10px;
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 90px;
+    max-height: 90px;
     width: 100%;
     height: 100%; }
 
@@ -9912,7 +9912,7 @@ padding: 0px 0 0 0 !important;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	max-width: 900px;
+	max-width: 1024px;
 	margin-left: auto;
 	margin-right: auto;
 }
