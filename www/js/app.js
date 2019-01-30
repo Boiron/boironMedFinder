@@ -5,6 +5,8 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
+
+
 var example = angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives','app.services', 'ngCordova'])
 
 .config(function($stateProvider, $ionicConfigProvider, $sceDelegateProvider){
@@ -91,8 +93,20 @@ example.controller("ExampleController", function($scope, $cordovaSocialSharing) 
 });
 
 angular.module('starter', ['ionic'])
-.run(function($ionicPlatform) {
+.run(function(previewData, localStorage, $ionicPlatform) {
   $ionicPlatform.ready(function() {
+    
+    if (typeof analytics !== 'undefined') {
+      analytics.startTrackerWithId('UA-49563724-4');
+      analytics.trackView('$state.current.name');
+      console.log("starting analytics");
+  }
+  else
+  {
+    console.log("Google analytics could not be loaded")
+  }
+
+
     if(window.cordova && window.cordova.plugins.Keyboard) {
       // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
       // for form inputs)
@@ -107,6 +121,9 @@ angular.module('starter', ['ionic'])
       StatusBar.styleDefault();
     }
   });
-})
+});
+
+
+
 
 

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.boironusa.boironmedicinefinder2019" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.boironusa.boironmedicinefinder" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Boiron Homeopathic Medicine Finder</name>
     <description>Find homeopathic medicines</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
@@ -113,15 +113,13 @@
     </plugin>
     <plugin name="com.darktalker.cordova.screenshot" spec="https://github.com/gitawego/cordova-screenshot.git" />
     <plugin name="cordova-plugin-facebook4" spec="4.1.0">
-        <variable name="APP_ID" value="1970241166604156" />
-        <variable name="APP_NAME" value="boironMedicineFinder2019" />
-        <variable name="FACEBOOK_HYBRID_APP_EVENTS" value="false" />
-        <variable name="FACEBOOK_ANDROID_SDK_VERSION" value="4.38.1" />
+        <variable name="APP_ID" value="636677839781818" />
+        <variable name="APP_NAME" value="“boironMedicineFinder”" />
     </plugin>
     <plugin name="cordova-plugin-google-analytics" spec="https://github.com/danwilson/google-analytics-plugin.git">
         <variable name="GMS_VERSION" value="11.0.1" />
     </plugin>
-    <engine name="android" spec="7.1.4" />
     <engine name="browser" spec="5.0.4" />
+    <engine name="android" spec="7.1.4" />
     <engine name="ios" spec="4.5.5" />
 </widget>

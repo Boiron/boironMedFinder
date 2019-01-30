@@ -4134,4 +4134,24 @@ function ($scope, $stateParams) {
 
 
 }])
+
+
+/*
+.controller('SuperCtrl', function( $rootScope, $location, $window ) {
+
+    $rootScope.$on('$routeChangeSuccess', function () {
+  
+      $window.ga('send', {
+        'hitType': 'screenview',
+        'appName' : 'My Example App',
+        'screenName' : $location.url(),
+        'hitCallback': function() {
+          console.log('GA hitCallback sent!');
+        }
+      }); 
+        
+    });
+  
+  });
+  */
  

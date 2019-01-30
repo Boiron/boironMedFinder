@@ -15,6 +15,7 @@
     "@ionic-native/core": "^4.20.0",
     "@ionic-native/social-sharing": "^4.20.0",
     "@ionic/pro": "2.0.4",
+    "angulartics-google-analytics": "^0.5.0",
     "com.darktalker.cordova.screenshot": "git+https://github.com/gitawego/cordova-screenshot.git",
     "cordova-android": "7.1.4",
     "cordova-android-support-gradle-release": "^2.0.1",
@@ -60,19 +61,17 @@
       "cordova-plugin-x-socialsharing": {
         "ANDROID_SUPPORT_V4_VERSION": "24.1.1+"
       },
-      "cordova-plugin-facebook4": {
-        "APP_ID": "1970241166604156",
-        "APP_NAME": "boironMedicineFinder2019",
-        "FACEBOOK_HYBRID_APP_EVENTS": "false",
-        "FACEBOOK_ANDROID_SDK_VERSION": "4.38.1"
-      },
       "cordova-plugin-google-analytics": {
         "GMS_VERSION": "11.0.1"
+      },
+      "cordova-plugin-facebook4": {
+        "APP_ID": "636677839781818",
+        "APP_NAME": "“boironMedicineFinder”"
       }
     },
     "platforms": [
-      "android",
       "browser",
+      "android",
       "ios"
     ]
   }

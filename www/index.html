@@ -63,7 +63,7 @@
     <script src="js/directives.js"></script>
     <script src="js/services.js"></script>
 
-    <script type="text/javascript" src="js/SocialSharing.js"></script>
+    <!--<script type="text/javascript" src="js/SocialSharing.js"></script>-->
 
     <script src="lib/ionicuirouter/ionicUIRouter.js"></script>
     <script>
@@ -84,16 +84,47 @@
        },'jpg',50,'myScreenShot');
       }
   </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-49563724-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-49563724-4');
+</script>
+
+      
 
   </head>
 
   <body ng-app="app" animation="slide-left-right-ios7">
+
+
+
+
+
+
+    <ion-pane ng-controller="ExampleController">
   <div id="mainContainer">
   <div>
     <ion-nav-bar class="bar-calm">
       <ion-nav-back-button></ion-nav-back-button>
     </ion-nav-bar>
-    <ion-nav-view></ion-nav-view>
+    <ion-nav-view>
+     
+ 
+    </ion-nav-view>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-49563724-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-49563724-4');
+</script>
+
     <!--<ion-content ng-controller="ExampleController">
       <button class="button" ng-click="shareAnywhere()">Share Anywhere</button>
     </ion-content>-->
