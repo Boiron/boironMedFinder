@@ -3942,7 +3942,7 @@ a.subdued {
       background-image: linear-gradient(180deg, #0c60ee, #0c60ee 50%, transparent 50%); }
   .bar.bar-calm {
     border-color: #b2b2b2;
-    background-color: #11c1f3;
+    background-color: #0072ce;
     background-image: linear-gradient(0deg, #0a9dc7, #0a9dc7 50%, transparent 50%);
     color: #fff; }
     .bar.bar-calm .title {
@@ -4157,8 +4157,8 @@ a.subdued {
     background: none; }
 
 .bar-calm .button {
-  border-color: #0a9dc7;
-  background-color: #11c1f3;
+  border-color: #00c7ff;
+  background-color: #0072ce;
   color: #fff; }
   .bar-calm .button:hover {
     color: #fff;
