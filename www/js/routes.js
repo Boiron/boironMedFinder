@@ -1034,7 +1034,7 @@ angular.module('app.routes', ['ionicUIRouter'])
   })
 
   .state('tabsController.allergy', {
-    url: '/page10',
+    url: '/allergy',
     views: {
       'tab3': {
         templateUrl: 'templates/allergy.html',
