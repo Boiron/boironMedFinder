@@ -245,10 +245,14 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
-  .state('findOverindulgenceMedicines', {
+  .state('tabsController.findOverindulgenceMedicines', {
     url: '/page224',
+    views: {
+      'tab3': {
     templateUrl: 'templates/findOverindulgenceMedicines.html',
     controller: 'findOverindulgenceMedicinesCtrl'
+      }
+    }
   })
 
   .state('tabsController.findChildrenSMedicines', {
@@ -4595,10 +4599,14 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
-  .state('overindulgence2', {
+  .state('tabsController.overindulgence2', {
     url: '/page225',
-    templateUrl: 'templates/overindulgence2.html',
-    controller: 'overindulgence2Ctrl'
+    views: {
+      'tab3': {
+        templateUrl: 'templates/overindulgence2.html',
+        controller: 'overindulgence2Ctrl'
+      }
+    }
   })
 
   .state('tabsController.foodIntoleranceWine', {
