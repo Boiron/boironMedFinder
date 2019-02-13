@@ -215,10 +215,14 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
-  .state('findHeartburnMedicines', {
+  .state('tabsController.findHeartburnMedicines', {
     url: '/page187',
-    templateUrl: 'templates/findHeartburnMedicines.html',
-    controller: 'findHeartburnMedicinesCtrl'
+    views: {
+      'tab3': {
+        templateUrl: 'templates/findHeartburnMedicines.html',
+        controller: 'findHeartburnMedicinesCtrl'
+      }
+    }
   })
 
   .state('tabsController.findDiarrheaMedicines', {
@@ -4727,22 +4731,34 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
-  .state('heartburnWithGasAndBloating', {
+  .state('tabsController.heartburnWithGasAndBloating', {
     url: '/page188',
-    templateUrl: 'templates/heartburnWithGasAndBloating.html',
-    controller: 'heartburnWithGasAndBloatingCtrl'
+    views: {
+      'tab3': {
+        templateUrl: 'templates/heartburnWithGasAndBloating.html',
+        controller: 'heartburnWithGasAndBloatingCtrl'
+      }
+    }
   })
 
-  .state('heartburnWithIntenseBurning', {
+  .state('tabsController.heartburnWithIntenseBurning', {
     url: '/page189',
-    templateUrl: 'templates/heartburnWithIntenseBurning.html',
-    controller: 'heartburnWithIntenseBurningCtrl'
+    views: {
+      'tab3': {
+        templateUrl: 'templates/heartburnWithIntenseBurning.html',
+        controller: 'heartburnWithIntenseBurningCtrl'
+      } 
+    }
   })
 
-  .state('heartburnOther', {
+  .state('tabsController.heartburnOther', {
     url: '/page190',
-    templateUrl: 'templates/heartburnOther.html',
-    controller: 'heartburnOtherCtrl'
+    views: {
+      'tab3': {
+        templateUrl: 'templates/heartburnOther.html',
+        controller: 'heartburnOtherCtrl'
+      }
+    }    
   })
 
   .state('tabsController.sourStomachfin', {
