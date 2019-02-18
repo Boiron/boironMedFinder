@@ -9947,3 +9947,11 @@ padding-right:15px;
             box-shadow: 0 10px 20px -12px #777;
            
 }
+.button {
+  max-width: 95%;
+}
+
+.button.button-block, .button.button-full {
+  margin-left: auto;
+  margin-right: auto;
+ }
