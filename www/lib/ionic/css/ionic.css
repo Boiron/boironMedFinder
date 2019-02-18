@@ -9896,14 +9896,20 @@ span {
 }
 
 .instasize {
-  max-width: 85px !important;
-  max-height: 85px !important;
+  max-width: 90px !important;
+  max-height: 90px !important;
   padding-top: 10px;
   padding-left: 0px;
 }
 
 ion-item.nopadding {
 padding: 0px 0 0 0 !important;
+border-radius: 15px;
+-webkit-box-shadow: 0 10px 20px -12px #777;
+ 
+-moz-box-shadow: 0 10px 20px -12px #777;
+
+     box-shadow: 0 10px 20px -12px #777;
 }
 
 #mainContainer {
@@ -9929,5 +9935,15 @@ h5 {
 
 .medclaimer {
 padding-left: 15px;
+padding-right:15px;
 }
 
+#boironMedicineFinder-list-item1331 {
+  border-radius: 15px;
+  -webkit-box-shadow: 0 10px 20px -12px #777;
+ 
+       -moz-box-shadow: 0 10px 20px -12px #777;
+      
+            box-shadow: 0 10px 20px -12px #777;
+           
+}
