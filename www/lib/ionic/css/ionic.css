@@ -9916,3 +9916,18 @@ padding: 0px 0 0 0 !important;
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
+.card .item:first-child {
+  color: #0072ce;
+  font-weight: bold;
+}
+
+h5 {
+  margin-left: 15px;
+}
+
+.medclaimer {
+padding-left: 15px;
+}
+
