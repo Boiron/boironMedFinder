@@ -21,6 +21,7 @@
     "cordova-android-support-gradle-release": "^2.0.1",
     "cordova-browser": "5.0.4",
     "cordova-ios": "4.5.5",
+    "cordova-plugin-android-permissions": "^1.0.0",
     "cordova-plugin-crosswalk-webview": "2.4.0",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-facebook4": "4.1.0",
@@ -65,12 +66,13 @@
         "APP_ID": "636677839781818",
         "APP_NAME": "“boironMedicineFinder”"
       },
-      "cordova-plugin-firebase": {}
+      "cordova-plugin-firebase": {},
+      "cordova-plugin-android-permissions": {}
     },
     "platforms": [
-      "browser",
       "ios",
-      "android"
+      "android",
+      "browser"
     ]
   }
 }
