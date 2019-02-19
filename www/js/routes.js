@@ -4950,6 +4950,16 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
+  .state('tabsController.homeopathicMedicines2', {
+    url: '/page532',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/homeopathicMedicines2.html',
+        controller: 'homeopathicMedicines2Ctrl'
+      }
+    }
+  })
+
   .state('tabsController.boironMedicineFinder2', {
     url: '/page505',
     views: {
