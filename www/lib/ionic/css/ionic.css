@@ -9896,8 +9896,8 @@ span {
 }
 
 .instasize {
-  max-width: 90px !important;
-  max-height: 90px !important;
+  max-width: 100px !important;
+  max-height: 100px !important;
   padding-top: 10px;
   padding-left: 0px;
 }
@@ -9957,5 +9957,9 @@ padding-right:15px;
  }
 
  .headspace {
-   margin-top: 10px;
+   margin: 10px auto;
  }
+
+ .item .item-content {
+  background-color: transparent !important;
+}
