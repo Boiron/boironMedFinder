@@ -70,9 +70,9 @@
       "cordova-plugin-android-permissions": {}
     },
     "platforms": [
-      "android",
       "browser",
-      "ios"
+      "ios",
+      "android"
     ]
   }
 }
