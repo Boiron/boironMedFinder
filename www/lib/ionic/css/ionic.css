@@ -9965,3 +9965,8 @@ padding-right:15px;
  .item .item-content {
   background-color: transparent !important;
 }
+
+.ipad {
+  float: right;
+  
+}
