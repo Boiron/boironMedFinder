@@ -36,6 +36,7 @@
     "es6-promise-plugin": "^4.2.2",
     "html2canvas": "^1.0.0-alpha.12",
     "ionic-native": "^2.9.0",
+    "ionic-plugin-deeplinks": "^1.0.17",
     "rxjs": "^6.3.3",
     "web": "0.0.2"
   },
@@ -67,7 +68,25 @@
         "APP_NAME": "“boironMedicineFinder”"
       },
       "cordova-plugin-firebase": {},
-      "cordova-plugin-android-permissions": {}
+      "cordova-plugin-android-permissions": {},
+      "ionic-plugin-deeplinks": {
+        "URL_SCHEME": "medfinder",
+        "DEEPLINK_SCHEME": "https",
+        "DEEPLINK_HOST": "boironusa.com/mf-custom/2019webdeeplink/www/",
+        "ANDROID_PATH_PREFIX": "/",
+        "ANDROID_2_PATH_PREFIX": "/",
+        "ANDROID_3_PATH_PREFIX": "/",
+        "ANDROID_4_PATH_PREFIX": "/",
+        "ANDROID_5_PATH_PREFIX": "/",
+        "DEEPLINK_2_SCHEME": " ",
+        "DEEPLINK_2_HOST": " ",
+        "DEEPLINK_3_SCHEME": " ",
+        "DEEPLINK_3_HOST": " ",
+        "DEEPLINK_4_SCHEME": " ",
+        "DEEPLINK_4_HOST": " ",
+        "DEEPLINK_5_SCHEME": " ",
+        "DEEPLINK_5_HOST": " "
+      }
     },
     "platforms": [
       "android",
