@@ -5016,7 +5016,18 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
+  .state('tabsController.search', {
+    url: '/page533',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/search.html',
+        controller: 'searchCtrl'
+      }
+    }
+  })
+
 $urlRouterProvider.otherwise('/page1/home')
 
 
 });
+
