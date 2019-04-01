@@ -124,6 +124,51 @@ angular.module('starter', ['ionic'])
     }
   });
 });
+/* deep linking extra stuff
+.run(['$ionicPlatform', '$cordovaDeeplinks', '$state', '$timeout', function($ionicPlatform, $cordovaDeeplinks, $state, $timeout) {
+  $ionicPlatform.ready(function() {
+    $cordovaDeeplinks.route({
+      '/product/:productId': {
+        target: 'product',
+        parent: 'products'
+      }
+    }).subscribe(function(match) {
+      $timeout(function() {
+        $state.go(match.$route.parent, match.$args);
+        $timeout(function() {
+          $state.go(match.$route.target, match.$args);
+        }, 800);
+      }, 100);
+    }, function(nomatch) {
+      console.warn('No match', nomatch);
+    });
+  });
+}])
+
+.config(function($stateProvider, $urlRouterProvider) {
+
+  // Ionic uses AngularUI Router which uses the concept of states
+  // Learn more here: https://github.com/angular-ui/ui-router
+  // Set up the various states which the app can be in.
+  // Each state's controller can be found in controllers.js
+  $stateProvider
+
+  .state('product', {
+    url: '/product/:productId',
+    templateUrl: 'templates/product.html',
+    controller: 'ProductCtrl'
+  })
+  .state('products', {
+    url: '/product',
+    templateUrl: 'templates/products.html',
+    controller: 'ProductsCtrl'
+  });
+
+  // if none of the above states are matched, use this as the fallback
+  $urlRouterProvider.otherwise('/product');
+
+});
+*/
 
 /*cordova.plugins.diagnostic.isLocationAuthorized(function(enabled){
   console.log("Location is " + (enabled ? "enabled" : "disabled"));

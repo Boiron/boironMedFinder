@@ -4,14 +4,35 @@
       </ion-nav-buttons>  
 
   
-  <ion-content padding="true" scroll="true" overflow-scroll="true" class="iframe-wrapper">
+  <ion-content padding="true" scroll="true" overflow-scroll="true" class="iframe-wrapperer">
   
       <div class="spacer" style="height: 20px;"></div>
       <div class="spacer" style="height: 20px;"></div>
 
+      <center>
+      <div ng-init="medicines = 
+      [
+        {name:'Allergies from cold uticaria', link: '#/page1/coldurticaria'},
+        {name:'Allergies from eye irritation', link:'#/page1/page14'},
+        {name:'Allergies from hay fever', link:'#/page1/page9'},
+        {name:'Allergies from hives', link:'#/page1/page22'},
+        
+      ]">
+      </div>
 
+<label>Search: <input ng-model="searchText"></label>
+<table id="searchTextResults">
+<tr><th class="spacecadet" style="padding-right: 20px;">Symptom</th><th>Link</th></tr>
+<tr ng-repeat="medicine in medicines | filter:searchText">
+<td style="padding-right: 20px;">{{medicine.name}}</td>
+<td><a href="{{medicine.link}}">Find medicines</td>
+</tr>
+</table>
 
-    <div class="mobilehappy" style="position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 100%; overflow: hidden;">
+      
+<!-- i Frame Option
+
+    <div class="mobilehappery" style="position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 100%; overflow: hidden;">
 
 
         <iframe 
@@ -30,7 +51,7 @@
 
 </div>
   
-  
+  -->
 
    
   </ion-content>
