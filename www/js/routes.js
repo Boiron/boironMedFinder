@@ -275,10 +275,14 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
-  .state('findWetCoughMedicines', {
+  .state('tabsController.findWetCoughMedicines', {
     url: '/page516',
-    templateUrl: 'templates/findWetCoughMedicines.html',
-    controller: 'findWetCoughMedicinesCtrl'
+    views: {
+      'tab3': {
+        templateUrl: 'templates/findWetCoughMedicines.html',
+        controller: 'findWetCoughMedicinesCtrl'
+      }
+    }
   })
 
   .state('tabsController.findDryCoughMedicines', {
@@ -3089,34 +3093,54 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
-  .state('wetCoughDifficultToExpectorate', {
+  .state('tabsController.wetCoughDifficultToExpectorate', {
     url: '/page517',
-    templateUrl: 'templates/wetCoughDifficultToExpectorate.html',
-    controller: 'wetCoughDifficultToExpectorateCtrl'
+    views: {
+      'tab3': {
+        templateUrl: 'templates/wetCoughDifficultToExpectorate.html',
+        controller: 'wetCoughDifficultToExpectorateCtrl'
+      }
+    }  
   })
 
-  .state('wetCoughWorseWhenLyingDown', {
+  .state('tabsController.wetCoughWorseWhenLyingDown', {
     url: '/page521',
-    templateUrl: 'templates/wetCoughWorseWhenLyingDown.html',
-    controller: 'wetCoughWorseWhenLyingDownCtrl'
+    views: {
+      'tab3': {
+        templateUrl: 'templates/wetCoughWorseWhenLyingDown.html',
+        controller: 'wetCoughWorseWhenLyingDownCtrl'
+      }
+    }  
   })
 
-  .state('wetCoughThickPhlegm', {
+  .state('tabsController.wetCoughThickPhlegm', {
     url: '/page518',
-    templateUrl: 'templates/wetCoughThickPhlegm.html',
-    controller: 'wetCoughThickPhlegmCtrl'
+    views: {
+      'tab3': {
+        templateUrl: 'templates/wetCoughThickPhlegm.html',
+        controller: 'wetCoughThickPhlegmCtrl'
+      }
+    }  
   })
 
-  .state('wetCoughWithBronchialIrritation', {
+  .state('tabsController.wetCoughWithBronchialIrritation', {
     url: '/page519',
-    templateUrl: 'templates/wetCoughWithBronchialIrritation.html',
-    controller: 'wetCoughWithBronchialIrritationCtrl'
+    views: {
+      'tab3': {
+        templateUrl: 'templates/wetCoughWithBronchialIrritation.html',
+        controller: 'wetCoughWithBronchialIrritationCtrl'
+      }
+    }  
   })
 
-  .state('wetCoughWorseWhenInBed', {
+  .state('tabsController.wetCoughWorseWhenInBed', {
     url: '/page520',
-    templateUrl: 'templates/wetCoughWorseWhenInBed.html',
-    controller: 'wetCoughWorseWhenInBedCtrl'
+    views: {
+      'tab3': {
+        templateUrl: 'templates/wetCoughWorseWhenInBed.html',
+        controller: 'wetCoughWorseWhenInBedCtrl'
+      }
+    } 
   })
 
   .state('tabsController.chills', {
