@@ -16,13 +16,58 @@
         {name:'Allergies from eye irritation', link:'#/page1/page14'},
         {name:'Allergies from hay fever', link:'#/page1/page9'},
         {name:'Allergies from hives', link:'#/page1/page22'},
+        {name:'Allergies with itchy nose', link:'#/page1/page13'},
+        {name:'Allergies from hives', link:'#/page1/page22'},
+        {name:'Nasal congestion from allergies', link:'#/page1/page15'},
+        {name:'Body aches from Cold or Flu', link:'#/page1/page72'},
+        {name:'Body aches from overexertion', link:'#/page1/page52'},
+        {name:'Chills from Cold or Flu', link:'#/page1/page74'},
+        {name:'Cold', link:'#/page1/page32'},
+        {name:'Chest congestion', link:'#/page1/page206'},
+        {name:'Dry cough', link:'#/page1/page77'},
+        {name:'Dry cough from cold air', link:'#/page1/page78'},
+        {name:'Dry cough worse at night', link:'#/page1/page79'},
+        {name:'Dry cough worse in bed', link:'#/page1/page80'},
+        {name:'Dry cough worse when speaking', link:'#/page1/page81'},
+        {name:'Dry cough worse with motion', link:'#/page1/page82'},
+        {name:'Dry cough worsened by cold', link:'#/page1/page83'},
+        {name:'Fitful cough with hypersalivation', link:'#/page1/page85'},
+        {name:'Fitful cough with nausea', link:'#/page1/page86'},
+        {name:'Hoarseness from voice exertion', link:'#/page1/page88'},
+        {name:'Hoarseness when speaking', link:'/#/page1/page89'},
+        {name:'Hoarseness with bitonal voice', link:'#/page1/page90'},
+        {name:'Hoarseness with croupy cough', link: '#/page1/page91'},
+        {name:'Hoarsenss worse with humidity', link:'#/page1/page92'},
+        {name:'Loss of voice', link:'#/page1/page207'},
+        {name:'Snoring from overindulgence', link:'#/page1/page209'},
+        {name:'Snoring from postnasal drip', link:'#/page1/page210'},
+        {name:'Snoring - other', link:'#/page1/page211'},
+        {name:'Sore throat - feeling of splinter in throat', link:'#/page1/page126'},
+        {name:'Sore throat - itching pain improved by cold liquids', link:'#/page1/page127'},
+        {name:'Sore throat - with bad taste in the mouth', link:'#/page1/page128'},
+        {name:'Sore throat - with croupy cough', link:'#/page1/page129'},
+        {name:'Sore throat - with excessive salivation', link:'#/page1/page130'},
+        {name:'Sore throat - with pain radiating to the ears', link:'#/page1/page131'},
+        {name:'Sore throat - with pain when swallowing', link:'#/page1/page132'},
+        {name:'Sore throat - worse at night', link:'#/page1/page133'},
+        {name:'Sore throat - other', link:'#/page1/page 134'},
+        {name:'Dry cough worse in bed', link:'#/page1/page80'},
+        {name:'Dry cough worse when speaking', link:'#/page1/page81'},
+        {name:'Dry cough worse with motion', link:'#/page1/page82'},
+        {name:'Dry cough worsened by cold', link:'#/page1/page83'},
+        {name:'Fitful cough with hypersalivation', link:'#/page1/page85'},
+        {name:'Fitful cough with nausea', link:'#/page1/page86'},
+        {name:'Hoarseness from voice exertion', link:'#/page1/page88'},
+        {name:'Hoarseness when speaking', link:'/#/page1/page89'},
+        {name:'Hoarseness with bitonal voice', link:'/#/page1/page90'},
         
       ]">
       </div>
 
 <label>Search: <input ng-model="searchText"></label>
+<div class="spacer" style="height: 10px;"></div>
 <table id="searchTextResults">
-<tr><th class="spacecadet" style="padding-right: 20px;">Symptom</th><th>Link</th></tr>
+<tr><th class="spacecadet" style="padding-right: 20px;padding-bottom:10px;"><b>Symptom</b></th><th><b>Link</b></th></tr>
 <tr ng-repeat="medicine in medicines | filter:searchText">
 <td style="padding-right: 20px;">{{medicine.name}}</td>
 <td><a href="{{medicine.link}}">Find medicines</td>
