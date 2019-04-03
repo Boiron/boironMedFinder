@@ -1777,11 +1777,15 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
-  .state('acneOnTheForeheadAndTheBack', {
+  .state('tabsController.acneOnTheForeheadAndTheBack', {
     url: '/page235',
+    views: {
+      'tab3': {
     templateUrl: 'templates/acneOnTheForeheadAndTheBack.html',
     controller: 'acneOnTheForeheadAndTheBackCtrl'
-  })
+    }
+  }
+})
 
   .state('tabsController.insectBitesChiggers', {
     url: '/page271',
@@ -2177,16 +2181,24 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
-  .state('acnePustularAcne', {
+  .state('tabsController.acnePustularAcne', {
     url: '/page246',
+    views:{
+      'tab3': {
     templateUrl: 'templates/acnePustularAcne.html',
     controller: 'acnePustularAcneCtrl'
+      }
+    }
   })
 
-  .state('acneOther', {
+  .state('tabsController.acneOther', {
     url: '/page247',
+    views: {
+      'tab3': {
     templateUrl: 'templates/acneOther.html',
     controller: 'acneOtherCtrl'
+      }
+    }
   })
 
   .state('tabsController.blisters', {
