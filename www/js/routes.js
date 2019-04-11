@@ -5062,6 +5062,16 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
+  .state('tabsController.footPains', {
+    url: '/page600',
+    views: {
+      'tab3': {
+        templateUrl: 'templates/footPains.html',
+        controller: 'footPainsCtrl'
+      }
+    }
+  })
+
 $urlRouterProvider.otherwise('/page1/home')
 
 
