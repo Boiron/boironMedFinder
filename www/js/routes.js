@@ -5072,6 +5072,16 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
+  .state('tabsController.coldSneezing', {
+    url: '/page601',
+    views: {
+      'tab3': {
+        templateUrl: 'templates/coldsneezing.html',
+        controller: 'coldSneezingCtrl'
+      }
+    }
+  })
+
 $urlRouterProvider.otherwise('/page1/home')
 
 
