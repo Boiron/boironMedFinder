@@ -891,10 +891,14 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
-  .state('findPremenstrualSyndromeMedicines', {
+  .state('tabsController.findPremenstrualSyndromeMedicines', {
     url: '/page424',
-    templateUrl: 'templates/findPremenstrualSyndromeMedicines.html',
-    controller: 'findPremenstrualSyndromeMedicinesCtrl'
+    views: {
+      'tab3': {
+        templateUrl: 'templates/findPremenstrualSyndromeMedicines.html',
+        controller: 'findPremenstrualSyndromeMedicinesCtrl'
+      }  
+    }  
   })
 
   .state('tabsController.findProfuseSweatingMedicines', {
@@ -2055,10 +2059,14 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
-  .state('scarsPainfulScars', {
+  .state('tabsController.scarsPainfulScars', {
     url: '/page315',
-    templateUrl: 'templates/scarsPainfulScars.html',
-    controller: 'scarsPainfulScarsCtrl'
+    views: {
+      'tab3': {
+        templateUrl: 'templates/scarsPainfulScars.html',
+        controller: 'scarsPainfulScarsCtrl'
+      }
+    }  
   })
 
   .state('tabsController.wartsAroundTheNails', {
@@ -3441,16 +3449,24 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
-  .state('sprainsLongTermTreatment', {
+  .state('tabsController.sprainsLongTermTreatment', {
     url: '/page449',
-    templateUrl: 'templates/sprainsLongTermTreatment.html',
-    controller: 'sprainsLongTermTreatmentCtrl'
-  })
+    views: {
+      'tab3': {
+        templateUrl: 'templates/sprainsLongTermTreatment.html',
+        controller: 'sprainsLongTermTreatmentCtrl'
+      }
+    }
+   })
 
-  .state('sprainsFirst48Hours', {
+  .state('tabsController.sprainsFirst48Hours', {
     url: '/page448',
+    views: {
+      'tab3': {
     templateUrl: 'templates/sprainsFirst48Hours.html',
     controller: 'sprainsFirst48HoursCtrl'
+      }
+    }
   })
 
   .state('tabsController.muscleStiffnessFromTrauma', {
@@ -3879,28 +3895,44 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
-  .state('menstrualCrampsImprovedByBendingOver', {
+  .state('tabsController.menstrualCrampsImprovedByBendingOver', {
     url: '/page489',
-    templateUrl: 'templates/menstrualCrampsImprovedByBendingOver.html',
-    controller: 'menstrualCrampsImprovedByBendingOverCtrl'
+    views: {
+      'tab3': {
+        templateUrl: 'templates/menstrualCrampsImprovedByBendingOver.html',
+        controller: 'menstrualCrampsImprovedByBendingOverCtrl'
+      }
+    }
   })
 
-  .state('premenstrualSyndromeWithMoodSwings', {
+  .state('tabsController.premenstrualSyndromeWithMoodSwings', {
     url: '/page497',
-    templateUrl: 'templates/premenstrualSyndromeWithMoodSwings.html',
-    controller: 'premenstrualSyndromeWithMoodSwingsCtrl'
+    views: {
+      'tab3': {
+        templateUrl: 'templates/premenstrualSyndromeWithMoodSwings.html',
+        controller: 'premenstrualSyndromeWithMoodSwingsCtrl'
+      }
+    }
   })
 
-  .state('premenstrualSyndromeWorseWithCold', {
+  .state('tabsController.premenstrualSyndromeWorseWithCold', {
     url: '/page498',
-    templateUrl: 'templates/premenstrualSyndromeWorseWithCold.html',
-    controller: 'premenstrualSyndromeWorseWithColdCtrl'
+    views: {
+      'tab3': {
+        templateUrl: 'templates/premenstrualSyndromeWorseWithCold.html',
+        controller: 'premenstrualSyndromeWorseWithColdCtrl'
+      }
+    }
   })
 
-  .state('premenstrualSyndromeOther', {
+  .state('tabsController.premenstrualSyndromeOther', {
     url: '/page499',
-    templateUrl: 'templates/premenstrualSyndromeOther.html',
-    controller: 'premenstrualSyndromeOtherCtrl'
+    views: {
+      'tab3': {
+        templateUrl: 'templates/premenstrualSyndromeOther.html',
+        controller: 'premenstrualSyndromeOtherCtrl'
+      }
+    }  
   })
 
   .state('tabsController.menstrualCrampsWorseWithAnger', {
