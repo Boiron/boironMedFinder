@@ -3769,6 +3769,16 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
+  .state('tabsController.hotflash3', {
+    url: '/page604',
+    views: {
+      'tab3': {
+        templateUrl: 'templates/hotflash3.html',
+        controller: 'hotFlash3Ctrl'
+      }
+    }
+  })
+
   .state('tabsController.headacheFromHotFlashes', {
     url: '/page437',
     views: {
