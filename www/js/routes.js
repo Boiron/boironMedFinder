@@ -4146,6 +4146,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/burningWithFissures2.html',
         controller: 'burningWithFissures2Ctrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/burningWithFissures2.html',
+        controller: 'burningWithFissures2Ctrl'
       }
     }
   })
