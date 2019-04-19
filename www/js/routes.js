@@ -369,6 +369,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findWetCoughMedicines.html',
         controller: 'findWetCoughMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findWetCoughMedicines.html',
+        controller: 'findWetCoughMedicinesCtrl'
       }
     }
   })
@@ -377,6 +381,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page76',
     views: {
       'tab3': {
+        templateUrl: 'templates/findDryCoughMedicines.html',
+        controller: 'findDryCoughMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findDryCoughMedicines.html',
         controller: 'findDryCoughMedicinesCtrl'
       }
@@ -389,6 +397,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findFitfulCoughMedicines.html',
         controller: 'findFitfulCoughMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findFitfulCoughMedicines.html',
+        controller: 'findFitfulCoughMedicinesCtrl'
       }
     }
   })
@@ -397,6 +409,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page336',
     views: {
       'tab3': {
+        templateUrl: 'templates/findArthritisPainMedicines.html',
+        controller: 'findArthritisPainMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findArthritisPainMedicines.html',
         controller: 'findArthritisPainMedicinesCtrl'
       }
@@ -409,6 +425,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findJointPainMedicines.html',
         controller: 'findJointPainMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findJointPainMedicines.html',
+        controller: 'findJointPainMedicinesCtrl'
       }
     }
   })
@@ -417,6 +437,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page394',
     views: {
       'tab3': {
+        templateUrl: 'templates/findToothacheMedicines.html',
+        controller: 'findToothacheMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findToothacheMedicines.html',
         controller: 'findToothacheMedicinesCtrl'
       }
@@ -429,6 +453,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findLowerBackPainMedicines.html',
         controller: 'findLowerBackPainMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findLowerBackPainMedicines.html',
+        controller: 'findLowerBackPainMedicinesCtrl'
       }
     }
   })
@@ -437,6 +465,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page340',
     views: {
       'tab3': {
+        templateUrl: 'templates/findMuscleSorenessMedicines.html',
+        controller: 'findMuscleSorenessMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findMuscleSorenessMedicines.html',
         controller: 'findMuscleSorenessMedicinesCtrl'
       }
@@ -449,6 +481,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findStiffnessMedicines.html',
         controller: 'findStiffnessMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findStiffnessMedicines.html',
+        controller: 'findStiffnessMedicinesCtrl'
       }
     }
   })
@@ -457,6 +493,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page342',
     views: {
       'tab3': {
+        templateUrl: 'templates/findSprainMedicines.html',
+        controller: 'findSprainMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findSprainMedicines.html',
         controller: 'findSprainMedicinesCtrl'
       }
@@ -469,6 +509,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findWriterSCrampMedicines.html',
         controller: 'findWriterSCrampMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findWriterSCrampMedicines.html',
+        controller: 'findWriterSCrampMedicinesCtrl'
       }
     }
   })
@@ -477,6 +521,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page338',
     views: {
       'tab3': {
+        templateUrl: 'templates/findLegCrampMedicines.html',
+        controller: 'findLegCrampMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findLegCrampMedicines.html',
         controller: 'findLegCrampMedicinesCtrl'
       }
@@ -489,6 +537,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/athleteSFoot.html',
         controller: 'athleteSFootCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/athleteSFoot.html',
+        controller: 'athleteSFootCtrl'
       }
     }
   })
@@ -497,6 +549,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page279',
     views: {
       'tab3': {
+        templateUrl: 'templates/boils.html',
+        controller: 'boilsCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/boils.html',
         controller: 'boilsCtrl'
       }
@@ -509,20 +565,36 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/burns.html',
         controller: 'burnsCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/burns.html',
+        controller: 'burnsCtrl'
       }
     }
   })
 
-  .state('chappedLips', {
+  .state('tabsController.chappedLips', {
     url: '/page281',
-    templateUrl: 'templates/chappedLips.html',
-    controller: 'chappedLipsCtrl'
+    views: {
+      'tab3': {
+        templateUrl: 'templates/chappedLips.html',
+        controller: 'chappedLipsCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/chappedLips.html',
+        controller: 'chappedLipsCtrl'
+      }
+    }
   })
 
   .state('tabsController.coldSores', {
     url: '/page282',
     views: {
       'tab3': {
+        templateUrl: 'templates/coldSores.html',
+        controller: 'coldSoresCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/coldSores.html',
         controller: 'coldSoresCtrl'
       }
@@ -535,6 +607,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/fissures.html',
         controller: 'fissuresCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/fissures.html',
+        controller: 'fissuresCtrl'
       }
     }
   })
@@ -545,7 +621,11 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/frostnip.html',
         controller: 'frostnipCtrl'
-      }
+      },
+      'tab4': {
+        templateUrl: 'templates/frostnip.html',
+        controller: 'frostnipCtrl'
+      },
     }
   })
 
@@ -553,6 +633,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page87',
     views: {
       'tab3': {
+        templateUrl: 'templates/findHoarsenessMedicines.html',
+        controller: 'findHoarsenessMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findHoarsenessMedicines.html',
         controller: 'findHoarsenessMedicinesCtrl'
       }
@@ -571,6 +655,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findEyeCareMedicines.html',
         controller: 'findEyeCareMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findEyeCareMedicines.html',
+        controller: 'findEyeCareMedicinesCtrl'
       }
     }
   })
@@ -579,6 +667,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page230',
     views: {
       'tab3': {
+        templateUrl: 'templates/irritatedEyes.html',
+        controller: 'irritatedEyesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/irritatedEyes.html',
         controller: 'irritatedEyesCtrl'
       }
@@ -591,6 +683,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/stye.html',
         controller: 'styeCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/stye.html',
+        controller: 'styeCtrl'
       }
     }
   })
@@ -599,6 +695,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page231',
     views: {
       'tab3': {
+        templateUrl: 'templates/strainedEyes.html',
+        controller: 'strainedEyesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/strainedEyes.html',
         controller: 'strainedEyesCtrl'
       }
@@ -611,6 +711,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/coldAndFluSinusPainMeds.html',
         controller: 'coldAndFluSinusPainMedsCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/coldAndFluSinusPainMeds.html',
+        controller: 'coldAndFluSinusPainMedsCtrl'
       }
     }
   })
@@ -621,6 +725,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findColdSoreMedicines.html',
         controller: 'findColdSoreMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findColdSoreMedicines.html',
+        controller: 'findColdSoreMedicinesCtrl'
       }
     }
   })
@@ -629,6 +737,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page234',
     views: {
       'tab3': {
+        templateUrl: 'templates/acne.html',
+        controller: 'acneCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/acne.html',
         controller: 'acneCtrl'
       }
@@ -653,6 +765,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findSoreThroatMedicines.html',
         controller: 'findSoreThroatMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findSoreThroatMedicines.html',
+        controller: 'findSoreThroatMedicinesCtrl'
       }
     }
   })
@@ -661,6 +777,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page20',
     views: {
       'tab3': {
+        templateUrl: 'templates/findColdAndFluMedicines.html',
+        controller: 'findColdAndFluMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findColdAndFluMedicines.html',
         controller: 'findColdAndFluMedicinesCtrl'
       }
@@ -673,6 +793,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findBodyAchesMedicines.html',
         controller: 'findBodyAchesMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findBodyAchesMedicines.html',
+        controller: 'findBodyAchesMedicinesCtrl'
       }
     }
   })
@@ -681,6 +805,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page141',
     views: {
       'tab3': {
+        templateUrl: 'templates/findCankerSoreMedicines.html',
+        controller: 'findCankerSoreMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findCankerSoreMedicines.html',
         controller: 'findCankerSoreMedicinesCtrl'
       }
@@ -693,6 +821,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findRunnyNoseMedicines.html',
         controller: 'findRunnyNoseMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findRunnyNoseMedicines.html',
+        controller: 'findRunnyNoseMedicinesCtrl'
       }
     }
   })
@@ -701,6 +833,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page58',
     views: {
       'tab3': {
+        templateUrl: 'templates/findCirculatoryMedicines.html',
+        controller: 'findCirculatoryMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findCirculatoryMedicines.html',
         controller: 'findCirculatoryMedicinesCtrl'
       }
@@ -713,6 +849,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findHemorrhoidMedicines.html',
         controller: 'findHemorrhoidMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findHemorrhoidMedicines.html',
+        controller: 'findHemorrhoidMedicinesCtrl'
       }
     }
   })
@@ -721,6 +861,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page191',
     views: {
       'tab3': {
+        templateUrl: 'templates/findHiccupsMedicines.html',
+        controller: 'findHiccupsMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findHiccupsMedicines.html',
         controller: 'findHiccupsMedicinesCtrl'
       }
@@ -733,6 +877,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findJetLagMedicines.html',
         controller: 'findJetLagMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findJetLagMedicines.html',
+        controller: 'findJetLagMedicinesCtrl'
       }
     }
   })
@@ -743,7 +891,12 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findIndigestionMedicines.html',
         controller: 'findIndigestionMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findIndigestionMedicines.html',
+        controller: 'findIndigestionMedicinesCtrl'
       }
+      
     }
   })
 
@@ -751,6 +904,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page286',
     views: {
       'tab3': {
+        templateUrl: 'templates/findInsectBiteMedicines.html',
+        controller: 'findInsectBiteMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findInsectBiteMedicines.html',
         controller: 'findInsectBiteMedicinesCtrl'
       }
@@ -769,6 +926,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findPricklyHeatMiliariaMedicines.html',
         controller: 'findPricklyHeatMiliariaMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findPricklyHeatMiliariaMedicines.html',
+        controller: 'findPricklyHeatMiliariaMedicinesCtrl'
       }
     }
   })
@@ -777,6 +938,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page290',
     views: {
       'tab3': {
+        templateUrl: 'templates/findScarMedicines.html',
+        controller: 'findScarMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findScarMedicines.html',
         controller: 'findScarMedicinesCtrl'
       }
@@ -789,6 +954,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findShinglesOrZosterPainMeds.html',
         controller: 'findShinglesOrZosterPainMedsCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findShinglesOrZosterPainMeds.html',
+        controller: 'findShinglesOrZosterPainMedsCtrl'
       }
     }
   })
@@ -797,6 +966,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page292',
     views: {
       'tab3': {
+        templateUrl: 'templates/findSmallWoundMedicines.html',
+        controller: 'findSmallWoundMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findSmallWoundMedicines.html',
         controller: 'findSmallWoundMedicinesCtrl'
       }
@@ -809,6 +982,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findSunAllergyMedicines.html',
         controller: 'findSunAllergyMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findSunAllergyMedicines.html',
+        controller: 'findSunAllergyMedicinesCtrl'
       }
     }
   })
@@ -819,6 +996,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findSunburnMedicines.html',
         controller: 'findSunburnMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findSunburnMedicines.html',
+        controller: 'findSunburnMedicinesCtrl'
       }
     }
   })
@@ -827,6 +1008,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page295',
     views: {
       'tab3': {
+        templateUrl: 'templates/findWartMedicines.html',
+        controller: 'findWartMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findWartMedicines.html',
         controller: 'findWartMedicinesCtrl'
       }
@@ -845,6 +1030,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findItchingMedicines.html',
         controller: 'findItchingMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findItchingMedicines.html',
+        controller: 'findItchingMedicinesCtrl'
       }
     }
   })
@@ -853,6 +1042,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page34',
     views: {
       'tab3': {
+        templateUrl: 'templates/findChildrenSEaracheMedicine.html',
+        controller: 'findChildrenSEaracheMedicineCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findChildrenSEaracheMedicine.html',
         controller: 'findChildrenSEaracheMedicineCtrl'
       }
@@ -865,6 +1058,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findSnoringMedicines.html',
         controller: 'findSnoringMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findSnoringMedicines.html',
+        controller: 'findSnoringMedicinesCtrl'
       }
     }
   })
@@ -873,6 +1070,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page93',
     views: {
       'tab3': {
+        templateUrl: 'templates/findCrustyNostrilMedicines.html',
+        controller: 'findCrustyNostrilMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findCrustyNostrilMedicines.html',
         controller: 'findCrustyNostrilMedicinesCtrl'
       }
@@ -885,6 +1086,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findEaracheMedicines.html',
         controller: 'findEaracheMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findEaracheMedicines.html',
+        controller: 'findEaracheMedicinesCtrl'
       }
     }
   })
@@ -893,6 +1098,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page135',
     views: {
       'tab3': {
+        templateUrl: 'templates/findStuffyNoseMedicines.html',
+        controller: 'findStuffyNoseMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findStuffyNoseMedicines.html',
         controller: 'findStuffyNoseMedicinesCtrl'
       }
@@ -905,6 +1114,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findSleeplessnessMeds.html',
         controller: 'findSleeplessnessMedsCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findSleeplessnessMeds.html',
+        controller: 'findSleeplessnessMedsCtrl'
       }
     }
   })
@@ -913,6 +1126,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page410',
     views: {
       'tab3': {
+        templateUrl: 'templates/findStressAndSleepMedicines.html',
+        controller: 'findStressAndSleepMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findStressAndSleepMedicines.html',
         controller: 'findStressAndSleepMedicinesCtrl'
       }
@@ -925,6 +1142,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findApprehensionMedicines.html',
         controller: 'findApprehensionMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findApprehensionMedicines.html',
+        controller: 'findApprehensionMedicinesCtrl'
       }
     }
   })
@@ -933,6 +1154,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page412',
     views: {
       'tab3': {
+        templateUrl: 'templates/findGeneralFatigueMedicines.html',
+        controller: 'findGeneralFatigueMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findGeneralFatigueMedicines.html',
         controller: 'findGeneralFatigueMedicinesCtrl'
       }
@@ -945,6 +1170,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findHairLossMedicines.html',
         controller: 'findHairLossMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findHairLossMedicines.html',
+        controller: 'findHairLossMedicinesCtrl'
       }
     }
   })
@@ -953,6 +1182,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page414',
     views: {
       'tab3': {
+        templateUrl: 'templates/findIrritabilityMedicines.html',
+        controller: 'findIrritabilityMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findIrritabilityMedicines.html',
         controller: 'findIrritabilityMedicinesCtrl'
       }
@@ -965,6 +1198,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findNightSweatsMedicines.html',
         controller: 'findNightSweatsMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findNightSweatsMedicines.html',
+        controller: 'findNightSweatsMedicinesCtrl'
       }
     }
   })
@@ -973,6 +1210,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page423',
     views: {
       'tab3': {
+        templateUrl: 'templates/findPerimenopauseMedicines.html',
+        controller: 'findPerimenopauseMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findPerimenopauseMedicines.html',
         controller: 'findPerimenopauseMedicinesCtrl'
       }
@@ -985,7 +1226,11 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findPremenstrualSyndromeMedicines.html',
         controller: 'findPremenstrualSyndromeMedicinesCtrl'
-      }  
+      },
+      'tab4': {
+        templateUrl: 'templates/findPremenstrualSyndromeMedicines.html',
+        controller: 'findPremenstrualSyndromeMedicinesCtrl'
+      }
     }  
   })
 
@@ -993,6 +1238,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page425',
     views: {
       'tab3': {
+        templateUrl: 'templates/findProfuseSweatingMedicines.html',
+        controller: 'findProfuseSweatingMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findProfuseSweatingMedicines.html',
         controller: 'findProfuseSweatingMedicinesCtrl'
       }
@@ -1011,6 +1260,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findWomenSHealthMedicines.html',
         controller: 'findWomenSHealthMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findWomenSHealthMedicines.html',
+        controller: 'findWomenSHealthMedicinesCtrl'
       }
     }
   })
@@ -1019,6 +1272,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page39',
     views: {
       'tab3': {
+        templateUrl: 'templates/findNosebleedMedicines.html',
+        controller: 'findNosebleedMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findNosebleedMedicines.html',
         controller: 'findNosebleedMedicinesCtrl'
       }
@@ -1031,6 +1288,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findOralCareMedicines.html',
         controller: 'findOralCareMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findOralCareMedicines.html',
+        controller: 'findOralCareMedicinesCtrl'
       }
     }
   })
@@ -1039,6 +1300,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page393',
     views: {
       'tab3': {
+        templateUrl: 'templates/findBleedingGumsMedicines.html',
+        controller: 'findBleedingGumsMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findBleedingGumsMedicines.html',
         controller: 'findBleedingGumsMedicinesCtrl'
       }
@@ -1051,6 +1316,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findChildrenSRestlessSleepMeds.html',
         controller: 'findChildrenSRestlessSleepMedsCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findChildrenSRestlessSleepMeds.html',
+        controller: 'findChildrenSRestlessSleepMedsCtrl'
       }
     }
   })
@@ -1059,6 +1328,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page60',
     views: {
       'tab3': {
+        templateUrl: 'templates/findHeavyLegsMedicines.html',
+        controller: 'findHeavyLegsMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findHeavyLegsMedicines.html',
         controller: 'findHeavyLegsMedicinesCtrl'
       }
@@ -1071,6 +1344,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findNasalCongestionMedicines.html',
         controller: 'findNasalCongestionMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findNasalCongestionMedicines.html',
+        controller: 'findNasalCongestionMedicinesCtrl'
       }
     }
   })
@@ -1079,6 +1356,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page26',
     views: {
       'tab3': {
+        templateUrl: 'templates/findSunAllergyMedicines2.html',
+        controller: 'findSunAllergyMedicines2Ctrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findSunAllergyMedicines2.html',
         controller: 'findSunAllergyMedicines2Ctrl'
       }
@@ -1105,6 +1386,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findHeavyMenstruationMedicines.html',
         controller: 'findHeavyMenstruationMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findHeavyMenstruationMedicines.html',
+        controller: 'findHeavyMenstruationMedicinesCtrl'
       }
     }
   })
@@ -1113,6 +1398,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page419',
     views: {
       'tab3': {
+        templateUrl: 'templates/findHotFlashMedicines.html',
+        controller: 'findHotFlashMedicinesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/findHotFlashMedicines.html',
         controller: 'findHotFlashMedicinesCtrl'
       }
@@ -2478,6 +2767,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/scarsFromChickepox.html',
         controller: 'scarsFromChickepoxCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/scarsFromChickepox.html',
+        controller: 'scarsFromChickepoxCtrl'
       }
     }
   })
@@ -2486,6 +2779,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page314',
     views: {
       'tab3': {
+        templateUrl: 'templates/scarsFromSurgery.html',
+        controller: 'scarsFromSurgeryCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/scarsFromSurgery.html',
         controller: 'scarsFromSurgeryCtrl'
       }
@@ -2498,6 +2795,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/scarsPainfulScars.html',
         controller: 'scarsPainfulScarsCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/scarsPainfulScars.html',
+        controller: 'scarsPainfulScarsCtrl'
       }
     }  
   })
@@ -2506,6 +2807,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page316',
     views: {
       'tab3': {
+        templateUrl: 'templates/wartsAroundTheNails.html',
+        controller: 'wartsAroundTheNailsCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/wartsAroundTheNails.html',
         controller: 'wartsAroundTheNailsCtrl'
       }
@@ -2518,6 +2823,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/wartsFlatTranslucent.html',
         controller: 'wartsFlatTranslucentCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/wartsFlatTranslucent.html',
+        controller: 'wartsFlatTranslucentCtrl'
       }
     }
   })
@@ -2526,6 +2835,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page331',
     views: {
       'tab3': {
+        templateUrl: 'templates/wartsHardCallousedWarts.html',
+        controller: 'wartsHardCallousedWartsCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/wartsHardCallousedWarts.html',
         controller: 'wartsHardCallousedWartsCtrl'
       }
@@ -2538,6 +2851,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/wartsOnTheFace.html',
         controller: 'wartsOnTheFaceCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/wartsOnTheFace.html',
+        controller: 'wartsOnTheFaceCtrl'
       }
     }
   })
@@ -2546,6 +2863,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page333',
     views: {
       'tab3': {
+        templateUrl: 'templates/wartsSingleLargePlantarWart.html',
+        controller: 'wartsSingleLargePlantarWartCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/wartsSingleLargePlantarWart.html',
         controller: 'wartsSingleLargePlantarWartCtrl'
       }
@@ -2558,6 +2879,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/wartsUnderTheNails.html',
         controller: 'wartsUnderTheNailsCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/wartsUnderTheNails.html',
+        controller: 'wartsUnderTheNailsCtrl'
       }
     }
   })
@@ -2566,6 +2891,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page325',
     views: {
       'tab3': {
+        templateUrl: 'templates/sunburnPinkSkinItching.html',
+        controller: 'sunburnPinkSkinItchingCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/sunburnPinkSkinItching.html',
         controller: 'sunburnPinkSkinItchingCtrl'
       }
@@ -2578,6 +2907,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/sunburnRedSkinItching.html',
         controller: 'sunburnRedSkinItchingCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/sunburnRedSkinItching.html',
+        controller: 'sunburnRedSkinItchingCtrl'
       }
     }
   })
@@ -2586,6 +2919,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page327',
     views: {
       'tab3': {
+        templateUrl: 'templates/sunInducedSkinRash.html',
+        controller: 'sunInducedSkinRashCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/sunInducedSkinRash.html',
         controller: 'sunInducedSkinRashCtrl'
       }
@@ -2598,6 +2935,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/turfBurn.html',
         controller: 'turfBurnCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/turfBurn.html',
+        controller: 'turfBurnCtrl'
       }
     }
   })
@@ -2606,6 +2947,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page317',
     views: {
       'tab3': {
+        templateUrl: 'templates/scarsWithItching.html',
+        controller: 'scarsWithItchingCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/scarsWithItching.html',
         controller: 'scarsWithItchingCtrl'
       }
@@ -2618,6 +2963,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/scarsThickScars.html',
         controller: 'scarsThickScarsCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/scarsThickScars.html',
+        controller: 'scarsThickScarsCtrl'
       }
     }
   })
@@ -2626,8 +2975,12 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page246',
     views:{
       'tab3': {
-    templateUrl: 'templates/acnePustularAcne.html',
-    controller: 'acnePustularAcneCtrl'
+        templateUrl: 'templates/acnePustularAcne.html',
+        controller: 'acnePustularAcneCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/acnePustularAcne.html',
+        controller: 'acnePustularAcneCtrl'
       }
     }
   })
@@ -2636,8 +2989,12 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page247',
     views: {
       'tab3': {
-    templateUrl: 'templates/acneOther.html',
-    controller: 'acneOtherCtrl'
+        templateUrl: 'templates/acneOther.html',
+        controller: 'acneOtherCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/acneOther.html',
+        controller: 'acneOtherCtrl'
       }
     }
   })
@@ -2646,6 +3003,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page250',
     views: {
       'tab3': {
+        templateUrl: 'templates/blisters.html',
+        controller: 'blistersCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/blisters.html',
         controller: 'blistersCtrl'
       }
@@ -2658,6 +3019,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/burnsBlisters.html',
         controller: 'burnsBlistersCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/burnsBlisters.html',
+        controller: 'burnsBlistersCtrl'
       }
     }
   })
@@ -2666,6 +3031,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page252',
     views: {
       'tab3': {
+        templateUrl: 'templates/burnsPinkSkinItching.html',
+        controller: 'burnsPinkSkinItchingCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/burnsPinkSkinItching.html',
         controller: 'burnsPinkSkinItchingCtrl'
       }
@@ -2678,26 +3047,50 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/burnsRedSkinBurning.html',
         controller: 'burnsRedSkinBurningCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/burnsRedSkinBurning.html',
+        controller: 'burnsRedSkinBurningCtrl'
       }
     }
   })
 
-  .state('chappedLipsOnLowerLipsWithDryLips', {
+  .state('tabsController.chappedLipsOnLowerLipsWithDryLips', {
     url: '/page254',
-    templateUrl: 'templates/chappedLipsOnLowerLipsWithDryLips.html',
-    controller: 'chappedLipsOnLowerLipsWithDryLipsCtrl'
+    views: {
+      'tab3': {
+        templateUrl: 'templates/chappedLipsOnLowerLipsWithDryLips.html',
+        controller: 'chappedLipsOnLowerLipsWithDryLipsCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/chappedLipsOnLowerLipsWithDryLips.html',
+        controller: 'chappedLipsOnLowerLipsWithDryLipsCtrl'
+      }
+    }
   })
 
-  .state('chappedLipsPerleche', {
+  .state('tabsController.chappedLipsPerleche', {
     url: '/page255',
-    templateUrl: 'templates/chappedLipsPerleche.html',
-    controller: 'chappedLipsPerlecheCtrl'
+    views: {
+      'tab3': {
+        templateUrl: 'templates/chappedLipsPerleche.html',
+        controller: 'chappedLipsPerlecheCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/chappedLipsPerleche.html',
+        controller: 'chappedLipsPerlecheCtrl'
+      }
+    }
   })
 
   .state('tabsController.coldSoresCrustStage', {
     url: '/page256',
     views: {
       'tab3': {
+        templateUrl: 'templates/coldSoresCrustStage.html',
+        controller: 'coldSoresCrustStageCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/coldSoresCrustStage.html',
         controller: 'coldSoresCrustStageCtrl'
       }
@@ -2710,6 +3103,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/coldSoresOnset.html',
         controller: 'coldSoresOnsetCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/coldSoresOnset.html',
+        controller: 'coldSoresOnsetCtrl'
       }
     }
   })
@@ -2718,6 +3115,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page258',
     views: {
       'tab3': {
+        templateUrl: 'templates/coldSoresSmallBlisters.html',
+        controller: 'coldSoresSmallBlistersCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/coldSoresSmallBlisters.html',
         controller: 'coldSoresSmallBlistersCtrl'
       }
@@ -2730,6 +3131,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/fissuresCrackedSkin.html',
         controller: 'fissuresCrackedSkinCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/fissuresCrackedSkin.html',
+        controller: 'fissuresCrackedSkinCtrl'
       }
     }
   })
@@ -2738,6 +3143,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page322',
     views: {
       'tab3': {
+        templateUrl: 'templates/smallWoundsFromASharpObject.html',
+        controller: 'smallWoundsFromASharpObjectCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/smallWoundsFromASharpObject.html',
         controller: 'smallWoundsFromASharpObjectCtrl'
       }
@@ -2750,6 +3159,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/smallWoundsPunctureWounds.html',
         controller: 'smallWoundsPunctureWoundsCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/smallWoundsPunctureWounds.html',
+        controller: 'smallWoundsPunctureWoundsCtrl'
       }
     }
   })
@@ -2758,6 +3171,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page260',
     views: {
       'tab3': {
+        templateUrl: 'templates/fissuresFingers.html',
+        controller: 'fissuresFingersCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/fissuresFingers.html',
         controller: 'fissuresFingersCtrl'
       }
@@ -2770,6 +3187,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/fissuresThinPainfulBleedingEasily.html',
         controller: 'fissuresThinPainfulBleedingEasilyCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/fissuresThinPainfulBleedingEasily.html',
+        controller: 'fissuresThinPainfulBleedingEasilyCtrl'
       }
     }
   })
@@ -2778,6 +3199,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page262',
     views: {
       'tab3': {
+        templateUrl: 'templates/fissuresWithOozingAndDryCrustySkin.html',
+        controller: 'fissuresWithOozingAndDryCrustySkinCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/fissuresWithOozingAndDryCrustySkin.html',
         controller: 'fissuresWithOozingAndDryCrustySkinCtrl'
       }
@@ -2790,6 +3215,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/boilsOnsetOfBoils.html',
         controller: 'boilsOnsetOfBoilsCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/boilsOnsetOfBoils.html',
+        controller: 'boilsOnsetOfBoilsCtrl'
       }
     }
   })
@@ -2798,6 +3227,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page264',
     views: {
       'tab3': {
+        templateUrl: 'templates/boilsRecurrentBoils.html',
+        controller: 'boilsRecurrentBoilsCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/boilsRecurrentBoils.html',
         controller: 'boilsRecurrentBoilsCtrl'
       }
@@ -2810,6 +3243,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/boilsOther.html',
         controller: 'boilsOtherCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/boilsOther.html',
+        controller: 'boilsOtherCtrl'
       }
     }
   })
@@ -2818,6 +3255,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page266',
     views: {
       'tab3': {
+        templateUrl: 'templates/frostnipBurning.html',
+        controller: 'frostnipBurningCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/frostnipBurning.html',
         controller: 'frostnipBurningCtrl'
       }
@@ -2830,6 +3271,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/frostnipItchingAtNight.html',
         controller: 'frostnipItchingAtNightCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/frostnipItchingAtNight.html',
+        controller: 'frostnipItchingAtNightCtrl'
       }
     }
   })
@@ -2838,6 +3283,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page268',
     views: {
       'tab3': {
+        templateUrl: 'templates/frostnipSwollen.html',
+        controller: 'frostnipSwollenCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/frostnipSwollen.html',
         controller: 'frostnipSwollenCtrl'
       }
@@ -2850,6 +3299,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/fromGriefAngerOrVexation.html',
         controller: 'fromGriefAngerOrVexationCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/fromGriefAngerOrVexation.html',
+        controller: 'fromGriefAngerOrVexationCtrl'
       }
     }
   })
@@ -2858,6 +3311,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page481',
     views: {
       'tab3': {
+        templateUrl: 'templates/withDigestiveProblems.html',
+        controller: 'withDigestiveProblemsCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/withDigestiveProblems.html',
         controller: 'withDigestiveProblemsCtrl'
       }
@@ -2870,6 +3327,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/fromPhysicalOverexertionOrStressfulEmotions.html',
         controller: 'fromPhysicalOverexertionOrStressfulEmotionsCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/fromPhysicalOverexertionOrStressfulEmotions.html',
+        controller: 'fromPhysicalOverexertionOrStressfulEmotionsCtrl'
       }
     }
   })
@@ -2878,6 +3339,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page439',
     views: {
       'tab3': {
+        templateUrl: 'templates/headacheFromStress.html',
+        controller: 'headacheFromStressCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/headacheFromStress.html',
         controller: 'headacheFromStressCtrl'
       }
@@ -2890,6 +3355,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/apprehensionAggravatedByEmotion.html',
         controller: 'apprehensionAggravatedByEmotionCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/apprehensionAggravatedByEmotion.html',
+        controller: 'apprehensionAggravatedByEmotionCtrl'
       }
     }
   })
@@ -2898,6 +3367,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page458',
     views: {
       'tab3': {
+        templateUrl: 'templates/apprehensionHurriednessFromStress.html',
+        controller: 'apprehensionHurriednessFromStressCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/apprehensionHurriednessFromStress.html',
         controller: 'apprehensionHurriednessFromStressCtrl'
       }
@@ -2928,6 +3401,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/apprehensionWithStomachaches.html',
         controller: 'apprehensionWithStomachachesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/apprehensionWithStomachaches.html',
+        controller: 'apprehensionWithStomachachesCtrl'
       }
     }
   })
@@ -2944,6 +3421,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/apprehensionWithGeneralWeakness2.html',
         controller: 'apprehensionWithGeneralWeakness2Ctrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/apprehensionWithGeneralWeakness2.html',
+        controller: 'apprehensionWithGeneralWeakness2Ctrl'
       }
     }
   })
@@ -2952,6 +3433,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page468',
     views: {
       'tab3': {
+        templateUrl: 'templates/stageFright.html',
+        controller: 'stageFrightCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/stageFright.html',
         controller: 'stageFrightCtrl'
       }
@@ -2964,6 +3449,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/apprehensionWithTrembling.html',
         controller: 'apprehensionWithTremblingCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/apprehensionWithTrembling.html',
+        controller: 'apprehensionWithTremblingCtrl'
       }
     }
   })
@@ -2974,6 +3463,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/apprehensionWithLackOfMemory2.html',
         controller: 'apprehensionWithLackOfMemory2Ctrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/apprehensionWithLackOfMemory2.html',
+        controller: 'apprehensionWithLackOfMemory2Ctrl'
       }
     }
   })
@@ -2982,6 +3475,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page464',
     views: {
       'tab3': {
+        templateUrl: 'templates/apprehensionWithBelching2.html',
+        controller: 'apprehensionWithBelching2Ctrl'
+      },
+      'tab4': {
         templateUrl: 'templates/apprehensionWithBelching2.html',
         controller: 'apprehensionWithBelching2Ctrl'
       }
@@ -3000,6 +3497,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/apprehensionLumpInTheThroat.html',
         controller: 'apprehensionLumpInTheThroatCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/apprehensionLumpInTheThroat.html',
+        controller: 'apprehensionLumpInTheThroatCtrl'
       }
     }
   })
@@ -3008,6 +3509,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page465',
     views: {
       'tab3': {
+        templateUrl: 'templates/apprehensionHypersensitivityToStress.html',
+        controller: 'apprehensionHypersensitivityToStressCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/apprehensionHypersensitivityToStress.html',
         controller: 'apprehensionHypersensitivityToStressCtrl'
       }
@@ -3026,6 +3531,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/athleteSFootWithItching.html',
         controller: 'athleteSFootWithItchingCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/athleteSFootWithItching.html',
+        controller: 'athleteSFootWithItchingCtrl'
       }
     }
   })
@@ -3034,6 +3543,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page249',
     views: {
       'tab3': {
+        templateUrl: 'templates/athleteSFootWithOozing.html',
+        controller: 'athleteSFootWithOozingCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/athleteSFootWithOozing.html',
         controller: 'athleteSFootWithOozingCtrl'
       }
@@ -3046,6 +3559,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/feverWithProfuseSweating.html',
         controller: 'feverWithProfuseSweatingCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/feverWithProfuseSweating.html',
+        controller: 'feverWithProfuseSweatingCtrl'
       }
     }
   })
@@ -3054,6 +3571,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page106',
     views: {
       'tab3': {
+        templateUrl: 'templates/feverWithRestlessness.html',
+        controller: 'feverWithRestlessnessCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/feverWithRestlessness.html',
         controller: 'feverWithRestlessnessCtrl'
       }
@@ -3548,6 +4069,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/coughWorseAtNight.html',
         controller: 'coughWorseAtNightCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/coughWorseAtNight.html',
+        controller: 'coughWorseAtNightCtrl'
       }
     }
   })
@@ -3556,6 +4081,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page80',
     views: {
       'tab3': {
+        templateUrl: 'templates/coughWorseInBed.html',
+        controller: 'coughWorseInBedCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/coughWorseInBed.html',
         controller: 'coughWorseInBedCtrl'
       }
@@ -3568,6 +4097,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/hoarsenessFromVoiceExertion.html',
         controller: 'hoarsenessFromVoiceExertionCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/hoarsenessFromVoiceExertion.html',
+        controller: 'hoarsenessFromVoiceExertionCtrl'
       }
     }
   })
@@ -3576,6 +4109,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page89',
     views: {
       'tab3': {
+        templateUrl: 'templates/hoarsenessWhenStartingToSpeak.html',
+        controller: 'hoarsenessWhenStartingToSpeakCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/hoarsenessWhenStartingToSpeak.html',
         controller: 'hoarsenessWhenStartingToSpeakCtrl'
       }
@@ -3588,6 +4125,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/hoarsenessWithBitonalVoice.html',
         controller: 'hoarsenessWithBitonalVoiceCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/hoarsenessWithBitonalVoice.html',
+        controller: 'hoarsenessWithBitonalVoiceCtrl'
       }
     }
   })
@@ -3596,6 +4137,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page91',
     views: {
       'tab3': {
+        templateUrl: 'templates/hoarsenessWithCroupyCough.html',
+        controller: 'hoarsenessWithCroupyCoughCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/hoarsenessWithCroupyCough.html',
         controller: 'hoarsenessWithCroupyCoughCtrl'
       }
@@ -3608,6 +4153,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/hoarsenessWorseWithHumidity.html',
         controller: 'hoarsenessWorseWithHumidityCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/hoarsenessWorseWithHumidity.html',
+        controller: 'hoarsenessWorseWithHumidityCtrl'
       }
     }
   })
@@ -3616,6 +4165,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page207',
     views: {
       'tab3': {
+        templateUrl: 'templates/lossOfVoice.html',
+        controller: 'lossOfVoiceCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/lossOfVoice.html',
         controller: 'lossOfVoiceCtrl'
       }
@@ -3628,6 +4181,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/coughWorseWhenSpeaking.html',
         controller: 'coughWorseWhenSpeakingCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/coughWorseWhenSpeaking.html',
+        controller: 'coughWorseWhenSpeakingCtrl'
       }
     }
   })
@@ -3636,6 +4193,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page149',
     views: {
       'tab3': {
+        templateUrl: 'templates/coldSoresCrustStage2.html',
+        controller: 'coldSoresCrustStage2Ctrl'
+      },
+      'tab4': {
         templateUrl: 'templates/coldSoresCrustStage2.html',
         controller: 'coldSoresCrustStage2Ctrl'
       }
@@ -3648,6 +4209,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/coldSoresOnset2.html',
         controller: 'coldSoresOnset2Ctrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/coldSoresOnset2.html',
+        controller: 'coldSoresOnset2Ctrl'
       }
     }
   })
@@ -3656,6 +4221,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page151',
     views: {
       'tab3': {
+        templateUrl: 'templates/coldSoresSmallBlisters2.html',
+        controller: 'coldSoresSmallBlisters2Ctrl'
+      },
+      'tab4': {
         templateUrl: 'templates/coldSoresSmallBlisters2.html',
         controller: 'coldSoresSmallBlisters2Ctrl'
       }
@@ -3668,6 +4237,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/coughWorseWithMotion.html',
         controller: 'coughWorseWithMotionCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/coughWorseWithMotion.html',
+        controller: 'coughWorseWithMotionCtrl'
       }
     }
   })
@@ -3676,6 +4249,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page83',
     views: {
       'tab3': {
+        templateUrl: 'templates/coughWorsenedByCold.html',
+        controller: 'coughWorsenedByColdCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/coughWorsenedByCold.html',
         controller: 'coughWorsenedByColdCtrl'
       }
@@ -3688,6 +4265,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/wetCoughDifficultToExpectorate.html',
         controller: 'wetCoughDifficultToExpectorateCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/wetCoughDifficultToExpectorate.html',
+        controller: 'wetCoughDifficultToExpectorateCtrl'
       }
     }  
   })
@@ -3696,6 +4277,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page521',
     views: {
       'tab3': {
+        templateUrl: 'templates/wetCoughWorseWhenLyingDown.html',
+        controller: 'wetCoughWorseWhenLyingDownCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/wetCoughWorseWhenLyingDown.html',
         controller: 'wetCoughWorseWhenLyingDownCtrl'
       }
@@ -3708,6 +4293,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/wetCoughThickPhlegm.html',
         controller: 'wetCoughThickPhlegmCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/wetCoughThickPhlegm.html',
+        controller: 'wetCoughThickPhlegmCtrl'
       }
     }  
   })
@@ -3718,6 +4307,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/wetCoughWithBronchialIrritation.html',
         controller: 'wetCoughWithBronchialIrritationCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/wetCoughWithBronchialIrritation.html',
+        controller: 'wetCoughWithBronchialIrritationCtrl'
       }
     }  
   })
@@ -3726,6 +4319,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page520',
     views: {
       'tab3': {
+        templateUrl: 'templates/wetCoughWorseWhenInBed.html',
+        controller: 'wetCoughWorseWhenInBedCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/wetCoughWorseWhenInBed.html',
         controller: 'wetCoughWorseWhenInBedCtrl'
       }
@@ -3766,6 +4363,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/eyeIrritationFromAllergies.html',
         controller: 'eyeIrritationFromAllergiesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/eyeIrritationFromAllergies.html',
+        controller: 'eyeIrritationFromAllergiesCtrl'
       }
     }
   })
@@ -3774,6 +4375,10 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page237',
     views: {
       'tab3': {
+        templateUrl: 'templates/eyeIrritationNotFromAllergies.html',
+        controller: 'eyeIrritationNotFromAllergiesCtrl'
+      },
+      'tab4': {
         templateUrl: 'templates/eyeIrritationNotFromAllergies.html',
         controller: 'eyeIrritationNotFromAllergiesCtrl'
       }
