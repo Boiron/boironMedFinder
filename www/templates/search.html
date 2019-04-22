@@ -399,14 +399,16 @@
         {name:'Chapped lips - perleche -  angular cheilitis', link:'#/page1/tab4/page255'},
       ]">
       </div>
-
+      <div class="spacer" style="height: 20px;"></div>
+      <div class="spacer" style="height: 20px;"></div>
 <label>Search: <input ng-model="searchText"></label>
 <div class="spacer" style="height: 10px;"></div>
 <table id="searchTextResults">
 <tr><th class="spacecadet" style="padding-right: 20px;padding-bottom:10px;"><b>Symptom</b></th><th><b>Link</b></th></tr>
 <tr ng-repeat="medicine in medicines | filter:searchText">
-<td style="padding-right: 20px;">{{medicine.name}}</td>
-<td><a href="{{medicine.link}}" class="">Find medicines</td>
+  
+<td style="padding-right: 5px; padding-bottom: 20px;">{{medicine.name}}</td>
+<td><a href="{{medicine.link}}" class=""><button class="mcgeebutton"><b style="color: white;">View</b></button></td>
 </tr>
 </table>
 
