@@ -129,6 +129,12 @@
         <variable name="DEEPLINK_5_SCHEME" value=" " />
         <variable name="DEEPLINK_5_HOST" value=" " />
     </plugin>
+    <plugin name="cordova-plugin-customurlscheme" spec="^4.4.0">
+        <variable name="URL_SCHEME" value="medfinder" />
+        <variable name="ANDROID_SCHEME" value=" " />
+        <variable name="ANDROID_HOST" value=" " />
+        <variable name="ANDROID_PATHPREFIX" value="/" />
+    </plugin>
     <engine name="android" spec="7.1.4" />
     <engine name="browser" spec="5.0.4" />
     <engine name="ios" spec="^4.5.5" />

@@ -31,6 +31,10 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab3': {
         templateUrl: 'templates/findMedicines.html',
         controller: 'findMedicinesCtrl'
+      },
+      'tab4': {
+        templateUrl: 'templates/findMedicines.html',
+        controller: 'findMedicinesCtrl'
       }
     }
   })

@@ -7,7 +7,7 @@
 // 'starter.controllers' is found in controllers.js
 
 
-var example = angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives','app.services', 'ngCordova'])
+var example = angular.module('app', ['ionic.native','ionic', 'app.controllers', 'app.routes', 'app.directives','app.services', 'ngCordova'])
 
 .config(function($stateProvider, $ionicConfigProvider, $sceDelegateProvider){
   $ionicConfigProvider.tabs.position('bottom'); 
@@ -30,6 +30,57 @@ var example = angular.module('app', ['ionic', 'app.controllers', 'app.routes', '
     }
   });
 })
+/*
+.run(['$ionicPlatform', '$cordovaDeeplinks', '$state', '$timeout', function($ionicPlatform, $cordovaDeeplinks, $state, $timeout) {
+  $ionicPlatform.ready(function() {
+    $cordovaDeeplinks.route({
+      '/page1/tab3/page107': {
+        target: 'page107',
+        parent: 'home'
+      }
+    }).subscribe(function(match) {
+      $timeout(function() {
+        $state.go(match.$route.parent, match.$args);
+        $timeout(function() {
+          $state.go(match.$route.target, match.$args);
+        }, 800);
+      }, 100);
+    }, function(nomatch) {
+      console.warn('No match', nomatch);
+    });
+  });
+}])
+
+.config(function($stateProvider, $urlRouterProvider) {
+
+  // Ionic uses AngularUI Router which uses the concept of states
+  // Learn more here: https://github.com/angular-ui/ui-router
+  // Set up the various states which the app can be in.
+  // Each state's controller can be found in controllers.js
+  $stateProvider
+
+  .state('tabsController.fluSymptoms', {
+    url: '/page107',
+    templateUrl: 'templates/fluSymptoms.html',
+    controller: 'fluSymptomsCtrl'
+  })
+  .state('tabController.fluSymptoms', {
+    url: '#/page1/tab3/page107',
+    views: {
+      'tab3': {
+        templateUrl: 'templates/fluSymptoms.html',
+        controller: 'fluSymptomsCtrl'
+      }
+    }
+  });
+
+  // if none of the above states are matched, use this as the fallback
+  $urlRouterProvider.otherwise('page1/home');
+
+})
+
+*/
+
 
 /*
   This directive is used to disable the "drag to open" functionality of the Side-Menu

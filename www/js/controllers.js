@@ -2691,7 +2691,7 @@ function ($scope, $stateParams) {
     $scope.showContent = false;
     $scope.tubeItem = {
         'id': '1',
-        'img': 'img/E2QvdwZxQlC1McdTowPd_bluetubes.png'
+        'img': 'img/SingleMedicines.jpg'
     }
 }])
    
@@ -2701,7 +2701,7 @@ function ($scope, $stateParams) {
 function ($scope, $stateParams) {
     $scope.tubeItem = {
         'id': '1',
-        'img': 'img/E2QvdwZxQlC1McdTowPd_bluetubes.png'
+        'img': 'img/SingleMedicines.jpg'
     }
 
 }])

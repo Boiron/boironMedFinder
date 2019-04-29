@@ -7,7 +7,7 @@ angular.module('app.services', [])
 .service('TubeService', [function($scope, $stateParams){
     $scope.tubeItem = {
         'id': '1',
-        'img': "img/E2QvdwZxQlC1McdTowPd_bluetubes.png"
+        'img': "img/SingleMedicines.jpg"
     }
 }]);
 

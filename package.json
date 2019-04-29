@@ -13,6 +13,7 @@
   "dependencies": {
     "@angular/core": "^7.2.1",
     "@ionic-native/core": "^4.20.0",
+    "@ionic-native/deeplinks": "^5.5.0",
     "@ionic-native/social-sharing": "^4.20.0",
     "@ionic/pro": "2.0.4",
     "angulartics-google-analytics": "^0.5.0",
@@ -23,6 +24,7 @@
     "cordova-ios": "^4.5.5",
     "cordova-plugin-android-permissions": "^1.0.0",
     "cordova-plugin-crosswalk-webview": "2.4.0",
+    "cordova-plugin-customurlscheme": "^4.4.0",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-facebook4": "4.1.0",
     "cordova-plugin-firebase": "2.0.5",
@@ -86,6 +88,12 @@
         "DEEPLINK_4_HOST": " ",
         "DEEPLINK_5_SCHEME": " ",
         "DEEPLINK_5_HOST": " "
+      },
+      "cordova-plugin-customurlscheme": {
+        "URL_SCHEME": "medfinder",
+        "ANDROID_SCHEME": " ",
+        "ANDROID_HOST": " ",
+        "ANDROID_PATHPREFIX": "/"
       }
     },
     "platforms": [
