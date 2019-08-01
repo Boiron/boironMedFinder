@@ -4069,8 +4069,9 @@ a.subdued {
   .bar .buttons span {
     display: inline-block; }
   .bar .buttons-left span {
-    margin-right: 5px;
-    display: inherit; }
+    margin-right: 10px;
+    margin-top: 12px;
+    /*display: inherit; */}
   .bar .buttons-right span {
     margin-right: 10px;
     margin-top: 12px;
