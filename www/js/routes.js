@@ -6963,6 +6963,149 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
+
+  .state('tabsController.acidil', {
+    url: '/page650',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/acidil.html',
+        controller: 'searchCtrl'
+      }
+    }
+  })
+
+  .state('tabsController.aconitum6', {
+    url: '/page651',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/aconitum6.html',
+        controller: 'searchCtrl'
+      }
+    }
+  })
+
+  .state('tabsController.acteane', {
+    url: '/page652',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/acteane.html',
+        controller: 'searchCtrl'
+      }
+    }
+  })
+
+  .state('tabsController.aesculus6', {
+    url: '/page653',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/aesculus6.html',
+        controller: 'searchCtrl'
+      }
+    }
+  })
+
+  .state('tabsController.agaricus6', {
+    url: '/page654',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/agaricus6.html',
+        controller: 'searchCtrl'
+      }
+    }
+  })
+
+  .state('tabsController.allium6', {
+    url: '/page655',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/allium6.html',
+        controller: 'searchCtrl'
+      }
+    }
+  })
+
+
+
+  .state('tabsController.alumina6', {
+    url: '/page656',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/alumina6.html',
+        controller: 'searchCtrl'
+      }
+    }
+  })
+
+  .state('tabsController.antimonium30', {
+    url: '/page657',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/antimonium30.html',
+        controller: 'searchCtrl'
+      }
+    }
+  })
+
+  .state('tabsController.antimonium6', {
+    url: '/page658',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/antimonium6.html',
+        controller: 'searchCtrl'
+      }
+    }
+  })
+
+  .state('tabsController.antimoniumcrudum30', {
+    url: '/page658',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/antimoniumcrudum.html',
+        controller: 'searchCtrl'
+      }
+    }
+  })
+
+  .state('tabsController.antimoniumtartaricum30', {
+    url: '/page659',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/antimoniumtartaricum30.html',
+        controller: 'searchCtrl'
+      }
+    }
+  })
+
+  .state('tabsController.antimoniumtartaricum6', {
+    url: '/page660',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/antimoniumtartaricum6.html',
+        controller: 'searchCtrl'
+      }
+    }
+  })
+
+  .state('tabsController.apis30', {
+    url: '/page661',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/apis30.html',
+        controller: 'searchCtrl'
+      }
+    }
+  })
+
+
+
+
+
+
+
+
+
+
+
   .state('tabsController.footPains', {
     url: '/page600',
     views: {
