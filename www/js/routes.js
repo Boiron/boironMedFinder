@@ -6962,7 +6962,7 @@ angular.module('app.routes', ['ionicUIRouter'])
       }
     }
   })
-
+/*Beginning of Single Product Pages*/
 
   .state('tabsController.acidil', {
     url: '/page650',
@@ -7060,7 +7060,7 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page658',
     views: {
       'tab4': {
-        templateUrl: 'templates/antimoniumcrudum.html',
+        templateUrl: 'templates/antimoniumcrudum30.html',
         controller: 'searchCtrl'
       }
     }
@@ -7076,15 +7076,6 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
-  .state('tabsController.antimoniumtartaricum6', {
-    url: '/page660',
-    views: {
-      'tab4': {
-        templateUrl: 'templates/antimoniumtartaricum6.html',
-        controller: 'searchCtrl'
-      }
-    }
-  })
 
   .state('tabsController.apis30', {
     url: '/page661',
@@ -7092,9 +7083,1517 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab4': {
         templateUrl: 'templates/apis30.html',
         controller: 'searchCtrl'
-      }
+      }    
     }
   })
+
+/*PICKUPPPPPPPPPPPPPPP*/
+
+  .state('tabsController.argentum30', {
+    url: '/page662',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/argentum30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.argentum6', {
+    url: '/page663',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/argentum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.arnica30', {
+    url: '/page664',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/arnica30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.arnica6', {
+    url: '/page665',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/arnica6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.arnicareArthritis', {
+    url: '/page666',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/arnicareArthritis.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.arnicareCream', {
+    url: '/page667',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/arnicareCream.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.arnicareGel', {
+    url: '/page668',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/arnicareGel.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+
+  .state('tabsController.arsenicum30', {
+    url: '/page669',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/arsenicum30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.arsenicum6', {
+    url: '/page670',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/arsenicum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.arsenicumIodatum6', {
+    url: '/page671',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/arsenicumIodatum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+  .state('tabsController.arumTriphyllum6', {
+    url: '/page672',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/arumTriphyllum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+  .state('tabsController.avenocOintment', {
+    url: '/page673',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/avenocOintment.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+  .state('tabsController.avenocSuppositories', {
+    url: '/page674',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/avenocSuppositories.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+  .state('tabsController.belladonna30', {
+    url: '/page675',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/belladonna30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+  .state('tabsController.belladonna6', {
+    url: '/page676',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/belladonna6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+  .state('tabsController.bellis6', {
+    url: '/page677',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/bellis6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+  .state('tabsController.borax30', {
+    url: '/page678',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/borax30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.borax6', {
+    url: '/page679',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/borax6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.bryonia6', {
+    url: '/page680',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/bryonia6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.calcareaCarbonica30', {
+    url: '/page681',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/calcareaCarbonica30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.calcareaCarbonica6', {
+    url: '/page682',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/calcareaCarbonica6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.calcareaFluorica6', {
+    url: '/page683',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/calcareaFluorica6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.calcareaPhosphorica30', {
+    url: '/page684',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/calcareaPhosphorica30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.calcareaPhosphorica6', {
+    url: '/page685',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/calcareaPhosphorica6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.calcareaSulphurica30', {
+    url: '/page686',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/calcareaSulphurica30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.calendulaCream', {
+    url: '/page687',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/calendulaCream.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.calendulaGel', {
+    url: '/page688',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/calendulaGel.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.calendulaOintment', {
+    url: '/page689',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/calendulaOintment.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.camilia', {
+    url: '/page690',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/camilia.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.cantharis30', {
+    url: '/page691',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/cantharis30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.cantharis6', {
+    url: '/page692',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/cantharis6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.carboVegetabilis6', {
+    url: '/page693',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/carboVegetabilis6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.caulophyllumThalictroides30', {
+    url: '/page694',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/caulophyllumThalictroides30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.caulophyllumThalictroides6', {
+    url: '/page695',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/caulophyllumThalictroides6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.causticum30', {
+    url: '/page696',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/causticum30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.causticum6', {
+    url: '/page697',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/causticum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.chamomilla30', {
+    url: '/page698',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/chamomilla30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+
+
+  .state('tabsController.chelidoniumMajus6', {
+    url: '/page699',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/chelidoniumMajus6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.chestalCold', {
+    url: '/page700',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/chestalCold.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.chestalHoney', {
+    url: '/page701',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/chestalHoney.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.cimicifugaRacemosa6', {
+    url: '/page702',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/cimicifugaRacemosa6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.cinchonaOfficinalis30', {
+    url: '/page703',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/cinchonaOfficinalis30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.cinchonaOfficinalis6', {
+    url: '/page704',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/cinchonaOfficinalis6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.cocculus6', {
+    url: '/page705',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/cocculus6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.coffea30', {
+    url: '/page706',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/coffea30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.colchicum6', {
+    url: '/page707',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/colchicum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.coldCalmChildren', {
+    url: '/page708',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/coldCalmChildren.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.coldCalmKids', {
+    url: '/page709',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/cantharis6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+
+
+
+
+  .state('tabsController.collinsonia6', {
+    url: '/page710',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/collinsonia6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.colocynthis6', {
+    url: '/page711',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/colocynthis6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.condurango6', {
+    url: '/page712',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/condurango6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.cuprum6', {
+    url: '/page713',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/cuprum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.cycleaseCramp', {
+    url: '/page714',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/cycleaseCramp.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.cycleasePMS', {
+    url: '/page715',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/cycleasePMS.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.dolichos6', {
+    url: '/page716',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/dolichos6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.drosera30', {
+    url: '/page717',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/drosera30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.dulcamara30', {
+    url: '/page718',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/dulcamara30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.dulcamara6', {
+    url: '/page719',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/dulcamara6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+
+
+  .state('tabsController.eupatorium6', {
+    url: '/page720',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/eupatorium6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.euphrasia6', {
+    url: '/page721',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/euphrasia6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.ferrum6', {
+    url: '/page722',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/ferrum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.galphimia6', {
+    url: '/page723',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/galphimia6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.gasalia', {
+    url: '/page724',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/gasalia.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.gelsemium30', {
+    url: '/page725',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/gelsemium30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.gelsemium6', {
+    url: '/page726',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/gelsemium6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.glonoinum6', {
+    url: '/page727',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/glonoinum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.graphites30', {
+    url: '/page728',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/graphites30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.graphites6', {
+    url: '/page729',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/dulcamara6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+
+
+
+
+  .state('tabsController.hamamelis6', {
+    url: '/page730',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/hamamelis6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.hepar30', {
+    url: '/page731',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/hepar30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.hepar6', {
+    url: '/page732',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/hepar6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.histaminum30', {
+    url: '/page733',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/histaminum30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.histaminum6', {
+    url: '/page733',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/histaminum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.histaminumHydrochloricum30', {
+    url: '/page735',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/histaminumHydrochloricum30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+  
+
+  .state('tabsController.hydrastisCanadensis6', {
+    url: '/page736',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/hydrastisCanadensis6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.hypericumPerforatum30', {
+    url: '/page737',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/hypericumPerforatum30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.ignatia30', {
+    url: '/page738',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/dignatia30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.ipecacuanha30', {
+    url: '/page739',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/ipecacuanha30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.ipecacuanha6', {
+    url: '/page740',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/ipecacuanha6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.irisVersicolor30', {
+    url: '/page741',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/irisVersicolor30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.irisVersicolor6', {
+    url: '/page742',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/irisVersicolor6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.jetLagReliefCarePack', {
+    url: '/page743',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/jetLagReliefCarePack.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.kaliBichromicum6', {
+    url: '/page744',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/kaliBichromicum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.kaliBromatum6', {
+    url: '/page745',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/kaliBromatum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.kaliCarbonicum6', {
+    url: '/page746',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/kaliCarbonicum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.kaliIodatum6', {
+    url: '/page747',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/kaliIodatum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.kaliMuriaticum30', {
+    url: '/page748',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/kaliMuriaticum30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.kaliPhosphoricum30', {
+    url: '/page749',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/kaliPhosphoricum30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.kaliPhosphoricum30Pack', {
+    url: '/page750',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/kaliPhosphoricum30Pack.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.kaliSulphuricum6', {
+    url: '/page751',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/kaliSulphuricum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.lachesisMutus30', {
+    url: '/page752',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/dulcamara6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.lachnanthes6', {
+    url: '/page753',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/lachnanthes6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.ledumPalustre30', {
+    url: '/page754',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/ledumPalustre30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.ledumPalustre6', {
+    url: '/page755',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/ledumPalustre6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.legPainReliefCarePack', {
+    url: '/page756',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/legPainReliefCarePac.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.lobeliaInflata6', {
+    url: '/page757',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/lobeliaInflata6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.lycopodium6', {
+    url: '/page758',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/lycopodium6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.lycopodiumClavatum6', {
+    url: '/page759',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/lycopodiumClavatum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.magnesiaPhosphorica30', {
+    url: '/page760',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/magnesiaPhosphorica30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.magnesiaPhosphorica6', {
+    url: '/page761',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/magnesiaPhosphorica6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.mercuriusSolubilis6', {
+    url: '/page762',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/mercuriusSolubilis6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.mezereum30', {
+    url: '/page763',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/mezereum30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.mezereum6', {
+    url: '/page764',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/mezereum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.natrumMuriaticum30', {
+    url: '/page765',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/natrumMuriaticum30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.natrumMuriaticum6', {
+    url: '/page766',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/natrumMuriaticum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.nitricumAcidum6', {
+    url: '/page767',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/nitricumAcidum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.nuxVomica30', {
+    url: '/page768',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/nuxVomica30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.nuxVomica30Pack', {
+    url: '/page769',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/nuxVomica30Pack.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.nuxVomica6', {
+    url: '/page770',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/nuxVomica6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.optique1', {
+    url: '/page771',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/optique1.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.oscillococcinum', {
+    url: '/page772',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/oscillococcinum.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.petroleum6', {
+    url: '/page773',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/petroleum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.phosphoricumAcidum30', {
+    url: '/page774',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/phosphoricumAcidum30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.phosphoricumAcidum6', {
+    url: '/page775',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/phosphoricumAcidum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.phosphorus6', {
+    url: '/page776',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/phosphorus6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.phytolaccaDecandra6', {
+    url: '/page777',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/phytolaccaDecandra6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.platinumMetallicum6', {
+    url: '/page778',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/platinumMetallicum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.podophyllumPeltatum30', {
+    url: '/page779',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/podophyllumPeltatum30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.pulsatilla6', {
+    url: '/page780',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/pulsatilla6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.quietude', {
+    url: '/page781',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/quietude.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.ranunculusBulbosus6', {
+    url: '/page782',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/ranunculusBulbosus6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.rhus30', {
+    url: '/page783',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/rhus30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.rhus6', {
+    url: '/page784',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/rhus6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.rumex6', {
+    url: '/page785',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/rumex6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.ruta6', {
+    url: '/page786',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/ruta6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.sabina6', {
+    url: '/page787',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/sabina6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.sedalia', {
+    url: '/page788',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/sedalia.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.sepia30', {
+    url: '/page789',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/sepia30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  /*PAUSEDDDDDDDDDDDDDD*/
+
+  .state('tabsController.silicea30', {
+    url: '/page790',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/silicea30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.silicea6', {
+    url: '/page791',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/silicea6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.sinusalia', {
+    url: '/page792',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/sinusalia.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.spongia6', {
+    url: '/page793',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/spongia6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.staphysagria30', {
+    url: '/page794',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/staphysagria30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.staphysagria6', {
+    url: '/page795',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/staphysagria6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.stramonium6', {
+    url: '/page796',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/stramonium6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.sulphur6c', {
+    url: '/page797',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/sulphur6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+
+
+  .state('tabsController.sulphur6', {
+    url: '/page799',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/sulphur6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.symphytum6', {
+    url: '/page800',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/symphytum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.tabacum6', {
+    url: '/page801',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/tabacum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.tarentula6', {
+    url: '/page802',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/tarentula6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.throatcalm', {
+    url: '/page803',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/throatcalm.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.thuja30', {
+    url: '/page804',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/thuja30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.thuja6', {
+    url: '/page805',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/thuja6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.thuja30bcp', {
+    url: '/page806',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/thuja30bcp.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+  .state('tabsController.urtica6', {
+    url: '/page807',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/urtica6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+
+  .state('tabsController.veratrum6', {
+    url: '/page808',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/veratrum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+
+  .state('tabsController.yeastaway', {
+    url: '/page809',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/yeastaway.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+
+  .state('tabsController.zincum30', {
+    url: '/page810',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/zincum30.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
+
+  .state('tabsController.zincum6', {
+    url: '/page811',
+    views: {
+      'tab4': {
+        templateUrl: 'templates/zincum6.html',
+        controller: 'searchCtrl'
+      }    
+    }
+  })
+
 
 
 
@@ -7133,6 +8632,7 @@ angular.module('app.routes', ['ionicUIRouter'])
       }
     }
   })
+  
 
 $urlRouterProvider.otherwise('/page1/home')
 
