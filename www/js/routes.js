@@ -7559,7 +7559,7 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page709',
     views: {
       'tab4': {
-        templateUrl: 'templates/cantharis6.html',
+        templateUrl: 'templates/coldCalmKids.html',
         controller: 'searchCtrl'
       }    
     }
@@ -7765,7 +7765,7 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page729',
     views: {
       'tab4': {
-        templateUrl: 'templates/dulcamara6.html',
+        templateUrl: 'templates/graphites6.html',
         controller: 'searchCtrl'
       }    
     }
@@ -7816,7 +7816,7 @@ angular.module('app.routes', ['ionicUIRouter'])
   })
 
   .state('tabsController.histaminum6', {
-    url: '/page733',
+    url: '/page734',
     views: {
       'tab4': {
         templateUrl: 'templates/histaminum6.html',
@@ -7825,15 +7825,7 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
-  .state('tabsController.histaminumHydrochloricum30', {
-    url: '/page735',
-    views: {
-      'tab4': {
-        templateUrl: 'templates/histaminumHydrochloricum30.html',
-        controller: 'searchCtrl'
-      }    
-    }
-  })
+  
   
 
   .state('tabsController.hydrastisCanadensis6', {
@@ -7860,7 +7852,7 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page738',
     views: {
       'tab4': {
-        templateUrl: 'templates/dignatia30.html',
+        templateUrl: 'templates/ignatia30.html',
         controller: 'searchCtrl'
       }    
     }
