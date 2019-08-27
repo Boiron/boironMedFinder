@@ -8152,7 +8152,7 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page768',
     views: {
       'tab4': {
-        templateUrl: 'templates/nuxVomica30.html',
+        templateUrl: 'templates/nux30.html',
         controller: 'searchCtrl'
       }    
     }
@@ -8172,7 +8172,7 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page770',
     views: {
       'tab4': {
-        templateUrl: 'templates/nuxVomica6.html',
+        templateUrl: 'templates/nux6.html',
         controller: 'searchCtrl'
       }    
     }

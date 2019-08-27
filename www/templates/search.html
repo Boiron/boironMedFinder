@@ -1,4 +1,43 @@
-<ion-view class="background" title="Symptom | Medicine Search" id="page533">
+<head>
+  <style>
+    #search {
+
+}
+
+#search input[type="text"] {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    background: url(/img/search-white.png) no-repeat 10px 9px #fafafa;
+    border: 1px solid #d1d1d1;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #bebebe;
+    width: 80%;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+   /* text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;*/
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
+
+#search input[type="text"]:focus {
+    width: 90%;
+    }
+
+    .padding {
+     padding: 0px; 
+}
+  </style>
+</head>
+
+
+<ion-view class="background" title="Symptom | Medicine Search" id="page533" style="background-color: white;">
     <ion-nav-buttons side="right" class="has-header">
         <button onclick="sharePhoto();" class="button icon ion-share"></button>
       </ion-nav-buttons>  
@@ -9,7 +48,7 @@
       <div class="spacer" style="height: 20px;"></div>
       <div class="spacer" style="height: 20px;"></div>
 
-      <center>
+     
       <div ng-init="medicines = 
       [
         {name:'Allergies from cold urticaria', link: '#/page1/tab4/coldurticaria'},
@@ -594,14 +633,30 @@
       </div>
       <div class="spacer" style="height: 20px;"></div>
       <div class="spacer" style="height: 20px;"></div>
-     
-<label><input style="line-height: 2; margin-top: -5px; font-size: 17px; text-align: center;" ng-model="searchText" placeholder="&#x1F50D; Search"></input></label><ion-icon name="search"></ion-icon><!--<div class="mcgeebutton"><b style="color: white;">Search</b></div>--> 
+    
+<center>
+<form id="search">
+  <input 
+  type="text"
+  ng-model="searchText" 
+  placeholder="Search..."
+  ></input>
+</form>
+</center> 
+<!--<div class="mcgeebutton"><b style="color: white;">Search</b></div>--> 
 <div class="spacer" style="height: 10px;"></div>
-<table id="searchTextResults">
-<tr><th class="spacecadet" style="padding-right: 20px;padding-bottom:10px;"><b>Symptom | Medicine</b></th><!--<th><b>Link</b></th>--></tr>
-<tr ng-repeat="medicine in medicines | filter:searchText">
-  
-<td style="padding-bottom: 20px; text-align: left;"><a href="{{medicine.link}}">{{medicine.name}}</a></td>
+
+<center>
+
+  <h5 style="margin-left:0px; ">Symptom | Medicine</h5>
+</center>
+<table id="searchTextResults" width="100%">
+<!--<tr><th style="padding-bottom:10px;"><b>Symptom | Medicine</b></th><th><b>Link</b></th></tr>-->
+  <tr ng-repeat="medicine in medicines | filter:searchText" style="border-bottom: 1px solid #bebebe; width: 250px; ">
+    <td style="padding-bottom: 5px; padding-top: 5px; padding-left: 10px;text-align: left;"><a href="{{medicine.link}}" style="color: black; text-decoration:none;">{{medicine.name}}</a>
+     
+    </td>
+ 
 <!--
   <td><a href="{{medicine.link}}" class="">
   <button class="mcgeebutton">
@@ -609,8 +664,10 @@
   </button>
 </a>
 </td>-->
-</tr>
+
+</tr >
 </table>
+
 
 <div class="spacer" style="height: 20px;"></div>
 <div class="spacer" style="height: 20px;"></div>
