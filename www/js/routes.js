@@ -7992,7 +7992,7 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page752',
     views: {
       'tab4': {
-        templateUrl: 'templates/dulcamara6.html',
+        templateUrl: 'templates/lachesisMutus30.html',
         controller: 'searchCtrl'
       }    
     }
@@ -8072,7 +8072,7 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page760',
     views: {
       'tab4': {
-        templateUrl: 'templates/magnesiaPhosphorica30.html',
+        templateUrl: 'templates/magnesia30.html',
         controller: 'searchCtrl'
       }    
     }
@@ -8082,7 +8082,7 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page761',
     views: {
       'tab4': {
-        templateUrl: 'templates/magnesiaPhosphorica6.html',
+        templateUrl: 'templates/magnesia6.html',
         controller: 'searchCtrl'
       }    
     }
@@ -8092,7 +8092,7 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page762',
     views: {
       'tab4': {
-        templateUrl: 'templates/mercuriusSolubilis6.html',
+        templateUrl: 'templates/mercurius6.html',
         controller: 'searchCtrl'
       }    
     }
@@ -8122,7 +8122,7 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page765',
     views: {
       'tab4': {
-        templateUrl: 'templates/natrumMuriaticum30.html',
+        templateUrl: 'templates/natrum30.html',
         controller: 'searchCtrl'
       }    
     }
@@ -8132,7 +8132,7 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page766',
     views: {
       'tab4': {
-        templateUrl: 'templates/natrumMuriaticum6.html',
+        templateUrl: 'templates/natrum6.html',
         controller: 'searchCtrl'
       }    
     }
@@ -8142,7 +8142,7 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page767',
     views: {
       'tab4': {
-        templateUrl: 'templates/nitricumAcidum6.html',
+        templateUrl: 'templates/nitricum6.html',
         controller: 'searchCtrl'
       }    
     }
@@ -8212,7 +8212,7 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page774',
     views: {
       'tab4': {
-        templateUrl: 'templates/phosphoricumAcidum30.html',
+        templateUrl: 'templates/phosphoricum30.html',
         controller: 'searchCtrl'
       }    
     }
@@ -8222,7 +8222,7 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page775',
     views: {
       'tab4': {
-        templateUrl: 'templates/phosphoricumAcidum6.html',
+        templateUrl: 'templates/phosphoricum6.html',
         controller: 'searchCtrl'
       }    
     }
@@ -8242,7 +8242,7 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page777',
     views: {
       'tab4': {
-        templateUrl: 'templates/phytolaccaDecandra6.html',
+        templateUrl: 'templates/phytolacca6.html',
         controller: 'searchCtrl'
       }    
     }
@@ -8252,7 +8252,7 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page778',
     views: {
       'tab4': {
-        templateUrl: 'templates/platinumMetallicum6.html',
+        templateUrl: 'templates/platinum6.html',
         controller: 'searchCtrl'
       }    
     }
@@ -8262,7 +8262,7 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page779',
     views: {
       'tab4': {
-        templateUrl: 'templates/podophyllumPeltatum30.html',
+        templateUrl: 'templates/podophyllum30.html',
         controller: 'searchCtrl'
       }    
     }
@@ -8292,7 +8292,7 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page782',
     views: {
       'tab4': {
-        templateUrl: 'templates/ranunculusBulbosus6.html',
+        templateUrl: 'templates/ranunculus.html',
         controller: 'searchCtrl'
       }    
     }
@@ -8444,7 +8444,7 @@ angular.module('app.routes', ['ionicUIRouter'])
     url: '/page797',
     views: {
       'tab4': {
-        templateUrl: 'templates/sulphur6.html',
+        templateUrl: 'templates/sulphur6c.html',
         controller: 'searchCtrl'
       }    
     }
