@@ -2447,6 +2447,10 @@ angular.module('app.routes', ['ionicUIRouter'])
         templateUrl: 'templates/insectBitesChiggers.html',
         controller: 'insectBitesChiggersCtrl'
       },
+      'tab4': {
+        templateUrl: 'templates/insectBitesChiggers.html',
+        controller: 'insectBitesChiggersCtrl'
+      },
       
     }
   })
